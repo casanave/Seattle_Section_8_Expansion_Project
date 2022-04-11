@@ -72,9 +72,13 @@ For clarity, if we were only buying average priced non-renovated homes, we'd be 
 
 To properly compare visually, I will take each home that has been renovated, and subtract the average price of a non-renovated home from the sale price, this will recenter the visualization's bars to show how above or below each property was compared to the average un-renovated home.
 ![Renovation_Comparission](https://user-images.githubusercontent.com/8728172/162642572-cbd42c9a-0ddb-4a36-9a3f-0d61703b1120.png)
+
 X axis = average price of non-renovated home
+
 Green Bar = above average price of non-renovated home
+
 Blue Line = average price of renovated home
+
 This plot's 0 on the Y axis has been adjusted so that everything above are properties where their price (grouped by every 5 years,) is above the average price for a non-renovated property. The blue line represents the average price of properties that have been renovated. Properties above the blue line represent renovated properties that are valued above the average renovated property.
 
 Observations:
