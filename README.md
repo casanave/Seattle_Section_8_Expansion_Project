@@ -2,18 +2,18 @@
 
 ## Repo Navigation: 
 |-Data
-           -Fire_Stations.csv
-           -Hospitals.csv
-           -Housing_Project_Full
-           -Housing_Project_No_Dummies
-           -Housing_Project_With_Zipcodes
-           -column_names.md
-           -kc_house_data.csv
+------------Fire_Stations.csv
+------------Hospitals.csv
+------------Housing_Project_Full
+------------Housing_Project_No_Dummies
+------------Housing_Project_With_Zipcodes
+------------column_names.md
+------------kc_house_data.csv
 |-Visuals
-           -Correlation.png
-           -Renovation_Comparission.png
-           -Schools_Map (html) 
-           -Schools_Map.png
+------------Correlation.png
+------------Renovation_Comparission.png
+------------Schools_Map (html) 
+------------Schools_Map.png
 |-.gitignore
 |-README.md
 |-Seattle_Section_8_Project.ipynb
