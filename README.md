@@ -84,7 +84,7 @@ Machine Learning is being implemented here to reduce the political biasing of th
 In order to counter the mechanisms were ML can propogate racism, classism, etc, (CITATION: https://www.nytimes.com/2021/03/15/technology/artificial-intelligence-google-bias.html) Seattle chose me specifically as a Data Scientist for my professional experience working with homeless folks, at a housing-forward non-profit.
 
 ## Cleaning and Preparing the Data: 
-1) Douplicates were removed
+1) Duplicates were removed
 2) Removed properties priced over 2.5 million 
 3) Removed properties with over 8 thousand feet of square-foot living space
 4) Removed properties with over 100 thousand square foot lot
