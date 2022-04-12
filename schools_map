@@ -1,0 +1,2020 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7e02c892b1af476282855c3bd3219a3d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7e02c892b1af476282855c3bd3219a3d" ></div>
+        
+</body>
+<script>    
+    
+            var map_7e02c892b1af476282855c3bd3219a3d = L.map(
+                "map_7e02c892b1af476282855c3bd3219a3d",
+                {
+                    center: [47.605, -122.3344],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_18edf624eba5446890b49c31bea99e06 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+            var circle_marker_b23019b99cc146c890e2fe838577aa64 = L.circleMarker(
+                [47.6735243, -122.3915651],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_331ec411519a44f198f0ec20c9a4f1c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dee3be8530104a95b84a3ca16191ee9e = $(`<div id="html_dee3be8530104a95b84a3ca16191ee9e" style="width: 100.0%; height: 100.0%;">Adams Elementary</div>`)[0];
+            popup_331ec411519a44f198f0ec20c9a4f1c6.setContent(html_dee3be8530104a95b84a3ca16191ee9e);
+        
+
+        circle_marker_b23019b99cc146c890e2fe838577aa64.bindPopup(popup_331ec411519a44f198f0ec20c9a4f1c6)
+        ;
+
+        
+    
+    
+            var circle_marker_b935c3f7bb944041a1cef6860af154c2 = L.circleMarker(
+                [47.5465222, -122.2824559],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_dfad768663794c3395c335eca3413263 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12da0adf66bb4ff9ab3f60695e814bc4 = $(`<div id="html_12da0adf66bb4ff9ab3f60695e814bc4" style="width: 100.0%; height: 100.0%;">Aki Kurose Middle School</div>`)[0];
+            popup_dfad768663794c3395c335eca3413263.setContent(html_12da0adf66bb4ff9ab3f60695e814bc4);
+        
+
+        circle_marker_b935c3f7bb944041a1cef6860af154c2.bindPopup(popup_dfad768663794c3395c335eca3413263)
+        ;
+
+        
+    
+    
+            var circle_marker_d736dddfecc14319bbfd58f1ffb4a5de = L.circleMarker(
+                [47.52554079999999, -122.2709137],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_4e1b008dfdda47b685b54ed04c373e86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a9d74e3512e4b16aeaf3e16e99ca3a3 = $(`<div id="html_7a9d74e3512e4b16aeaf3e16e99ca3a3" style="width: 100.0%; height: 100.0%;">Alan T. Sugiyama High School</div>`)[0];
+            popup_4e1b008dfdda47b685b54ed04c373e86.setContent(html_7a9d74e3512e4b16aeaf3e16e99ca3a3);
+        
+
+        circle_marker_d736dddfecc14319bbfd58f1ffb4a5de.bindPopup(popup_4e1b008dfdda47b685b54ed04c373e86)
+        ;
+
+        
+    
+    
+            var circle_marker_4004c89f480747eeb286d63518c1a1ab = L.circleMarker(
+                [47.57738519999999, -122.407408],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_cbb55da16e4d4b4ca769cad83fb8f317 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29187d024c40432e9e1f74239bdfd2c8 = $(`<div id="html_29187d024c40432e9e1f74239bdfd2c8" style="width: 100.0%; height: 100.0%;">Alki Elementary</div>`)[0];
+            popup_cbb55da16e4d4b4ca769cad83fb8f317.setContent(html_29187d024c40432e9e1f74239bdfd2c8);
+        
+
+        circle_marker_4004c89f480747eeb286d63518c1a1ab.bindPopup(popup_cbb55da16e4d4b4ca769cad83fb8f317)
+        ;
+
+        
+    
+    
+            var circle_marker_6b0fc69308814dfe8cec643868a270bb = L.circleMarker(
+                [47.5096538, -122.3782632],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_4b880db4d43e43d59a033dd1a0016b54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1a78b873a1c4252a4222011d4ad4423 = $(`<div id="html_b1a78b873a1c4252a4222011d4ad4423" style="width: 100.0%; height: 100.0%;">Arbor Heights Elementary</div>`)[0];
+            popup_4b880db4d43e43d59a033dd1a0016b54.setContent(html_b1a78b873a1c4252a4222011d4ad4423);
+        
+
+        circle_marker_6b0fc69308814dfe8cec643868a270bb.bindPopup(popup_4b880db4d43e43d59a033dd1a0016b54)
+        ;
+
+        
+    
+    
+            var circle_marker_fd069d57df9747d4b4a3c1ae0e202822 = L.circleMarker(
+                [47.6011549, -122.3159697],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_51956281a9a6416d8693c1a38e9e50ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62037bf8b53f44dc81ed7190b062418e = $(`<div id="html_62037bf8b53f44dc81ed7190b062418e" style="width: 100.0%; height: 100.0%;">Bailey Gatzert Elementary</div>`)[0];
+            popup_51956281a9a6416d8693c1a38e9e50ef.setContent(html_62037bf8b53f44dc81ed7190b062418e);
+        
+
+        circle_marker_fd069d57df9747d4b4a3c1ae0e202822.bindPopup(popup_51956281a9a6416d8693c1a38e9e50ef)
+        ;
+
+        
+    
+    
+            var circle_marker_277884c340df4008919e6ab79248b251 = L.circleMarker(
+                [47.6767048, -122.3752561],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_5125f5307b8c4dd4b2acc06ec87ddf3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef042f258b274f069aed77dce6cbbd19 = $(`<div id="html_ef042f258b274f069aed77dce6cbbd19" style="width: 100.0%; height: 100.0%;">Ballard High School</div>`)[0];
+            popup_5125f5307b8c4dd4b2acc06ec87ddf3d.setContent(html_ef042f258b274f069aed77dce6cbbd19);
+        
+
+        circle_marker_277884c340df4008919e6ab79248b251.bindPopup(popup_5125f5307b8c4dd4b2acc06ec87ddf3d)
+        ;
+
+        
+    
+    
+            var circle_marker_2ae5cd0a22354a9d809e9d18986aa907 = L.circleMarker(
+                [47.5850743, -122.3153895],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_2e3adb532044478bb197fb8434815438 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0574198797124a02a6116fb2f343d5db = $(`<div id="html_0574198797124a02a6116fb2f343d5db" style="width: 100.0%; height: 100.0%;">Beacon Hill International Elementary</div>`)[0];
+            popup_2e3adb532044478bb197fb8434815438.setContent(html_0574198797124a02a6116fb2f343d5db);
+        
+
+        circle_marker_2ae5cd0a22354a9d809e9d18986aa907.bindPopup(popup_2e3adb532044478bb197fb8434815438)
+        ;
+
+        
+    
+    
+            var circle_marker_f74ea17fe60346c48a20550eee085754 = L.circleMarker(
+                [47.6547184, -122.3491291],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_8163179763444fb6bb2072ba4aebe8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f7a969a522b4b3ca63334436beef4d2 = $(`<div id="html_7f7a969a522b4b3ca63334436beef4d2" style="width: 100.0%; height: 100.0%;">Benjamin Franklin Day Elementary</div>`)[0];
+            popup_8163179763444fb6bb2072ba4aebe8c9.setContent(html_7f7a969a522b4b3ca63334436beef4d2);
+        
+
+        circle_marker_f74ea17fe60346c48a20550eee085754.bindPopup(popup_8163179763444fb6bb2072ba4aebe8c9)
+        ;
+
+        
+    
+    
+            var circle_marker_ab7f3b0f9bf14e2cbbec54a515192818 = L.circleMarker(
+                [47.7248183, -122.3538159],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_2cb871d461c045bda22ab6ba20e28cb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8436923743ef4bf6a81a9e3ace0f2762 = $(`<div id="html_8436923743ef4bf6a81a9e3ace0f2762" style="width: 100.0%; height: 100.0%;">Broadview-Thomson K-8</div>`)[0];
+            popup_2cb871d461c045bda22ab6ba20e28cb4.setContent(html_8436923743ef4bf6a81a9e3ace0f2762);
+        
+
+        circle_marker_ab7f3b0f9bf14e2cbbec54a515192818.bindPopup(popup_2cb871d461c045bda22ab6ba20e28cb4)
+        ;
+
+        
+    
+    
+            var circle_marker_a49b78765eb34d6da3881ccc7215feac = L.circleMarker(
+                [47.67112789999999, -122.2918906],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_77372fe944444ebca80004807e62e210 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b7c1e3111a445609fdc64541275834e = $(`<div id="html_7b7c1e3111a445609fdc64541275834e" style="width: 100.0%; height: 100.0%;">Bryant Elementary</div>`)[0];
+            popup_77372fe944444ebca80004807e62e210.setContent(html_7b7c1e3111a445609fdc64541275834e);
+        
+
+        circle_marker_a49b78765eb34d6da3881ccc7215feac.bindPopup(popup_77372fe944444ebca80004807e62e210)
+        ;
+
+        
+    
+    
+            var circle_marker_ce376baadde24dd091c28361571a97fe = L.circleMarker(
+                [47.6772263, -122.3223597],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_14f9d1f65fa94276ba8a934e2d4e811c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_219e1eb8a4344771992e654562825690 = $(`<div id="html_219e1eb8a4344771992e654562825690" style="width: 100.0%; height: 100.0%;">Cascade Parent Partnership Program</div>`)[0];
+            popup_14f9d1f65fa94276ba8a934e2d4e811c.setContent(html_219e1eb8a4344771992e654562825690);
+        
+
+        circle_marker_ce376baadde24dd091c28361571a97fe.bindPopup(popup_14f9d1f65fa94276ba8a934e2d4e811c)
+        ;
+
+        
+    
+    
+            var circle_marker_1ea34312de264b43aab2410b350529cc = L.circleMarker(
+                [47.69520379999999, -122.3372553],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_e4b760c5317b41b69e61606a4ab3d7d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85a50faaf66945108818dd3f8a38663d = $(`<div id="html_85a50faaf66945108818dd3f8a38663d" style="width: 100.0%; height: 100.0%;">Cascadia Elementary</div>`)[0];
+            popup_e4b760c5317b41b69e61606a4ab3d7d7.setContent(html_85a50faaf66945108818dd3f8a38663d);
+        
+
+        circle_marker_1ea34312de264b43aab2410b350529cc.bindPopup(popup_e4b760c5317b41b69e61606a4ab3d7d7)
+        ;
+
+        
+    
+    
+            var circle_marker_bbd4493f5e424890a9fb3477144925ae = L.circleMarker(
+                [47.6427608, -122.3999244],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_e68f5cdb989e4bbca8c639d205e9e482 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd6107f1df5d4d1797bb27917da6c174 = $(`<div id="html_dd6107f1df5d4d1797bb27917da6c174" style="width: 100.0%; height: 100.0%;">Catharine Blaine K-8</div>`)[0];
+            popup_e68f5cdb989e4bbca8c639d205e9e482.setContent(html_dd6107f1df5d4d1797bb27917da6c174);
+        
+
+        circle_marker_bbd4493f5e424890a9fb3477144925ae.bindPopup(popup_e68f5cdb989e4bbca8c639d205e9e482)
+        ;
+
+        
+    
+    
+            var circle_marker_4e7922a47a7a440a9f3bd02c9e49a267 = L.circleMarker(
+                [47.7258313, -122.2880956],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_7e6f6de0917745e7a3cabc06d95acbf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad561443a2c74647baf4145f9fd54e19 = $(`<div id="html_ad561443a2c74647baf4145f9fd54e19" style="width: 100.0%; height: 100.0%;">Cedar Park Elementary</div>`)[0];
+            popup_7e6f6de0917745e7a3cabc06d95acbf2.setContent(html_ad561443a2c74647baf4145f9fd54e19);
+        
+
+        circle_marker_4e7922a47a7a440a9f3bd02c9e49a267.bindPopup(popup_7e6f6de0917745e7a3cabc06d95acbf2)
+        ;
+
+        
+    
+    
+            var circle_marker_678786d7405a49f6bba607675b0fdbc4 = L.circleMarker(
+                [47.5299694, -122.3657388],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_c21bb61ebdee4ecaae5d3388ee9b7d4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68e82e45f3974aa7a21d698f2bb00550 = $(`<div id="html_68e82e45f3974aa7a21d698f2bb00550" style="width: 100.0%; height: 100.0%;">Chief Sealth International High School</div>`)[0];
+            popup_c21bb61ebdee4ecaae5d3388ee9b7d4a.setContent(html_68e82e45f3974aa7a21d698f2bb00550);
+        
+
+        circle_marker_678786d7405a49f6bba607675b0fdbc4.bindPopup(popup_c21bb61ebdee4ecaae5d3388ee9b7d4a)
+        ;
+
+        
+    
+    
+            var circle_marker_558503772f854d3bb2c2871d6cb8d222 = L.circleMarker(
+                [47.551101, -122.3137612],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_18c757b9d3d34be087bc83a7b8eddc13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1cd706e6dd1456c9a5f170b8658028f = $(`<div id="html_a1cd706e6dd1456c9a5f170b8658028f" style="width: 100.0%; height: 100.0%;">Cleveland High School</div>`)[0];
+            popup_18c757b9d3d34be087bc83a7b8eddc13.setContent(html_a1cd706e6dd1456c9a5f170b8658028f);
+        
+
+        circle_marker_558503772f854d3bb2c2871d6cb8d222.bindPopup(popup_18c757b9d3d34be087bc83a7b8eddc13)
+        ;
+
+        
+    
+    
+            var circle_marker_cac79289ec52445fa61c9efaa058278e = L.circleMarker(
+                [47.6406983, -122.3655893],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_5b8ef28368704efa83425fd61cd99d6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42586433b30d4ace81b939fd0e88de23 = $(`<div id="html_42586433b30d4ace81b939fd0e88de23" style="width: 100.0%; height: 100.0%;">Coe Elementary</div>`)[0];
+            popup_5b8ef28368704efa83425fd61cd99d6a.setContent(html_42586433b30d4ace81b939fd0e88de23);
+        
+
+        circle_marker_cac79289ec52445fa61c9efaa058278e.bindPopup(popup_5b8ef28368704efa83425fd61cd99d6a)
+        ;
+
+        
+    
+    
+            var circle_marker_48401cda6f5248d2b61fa3f0a3420532 = L.circleMarker(
+                [47.5235665, -122.3245331],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_4dc0c86feb9b4261a575a0f06b92a213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d147a521c76a428faa73082c20d1cc20 = $(`<div id="html_d147a521c76a428faa73082c20d1cc20" style="width: 100.0%; height: 100.0%;">Concord International Elementary</div>`)[0];
+            popup_4dc0c86feb9b4261a575a0f06b92a213.setContent(html_d147a521c76a428faa73082c20d1cc20);
+        
+
+        circle_marker_48401cda6f5248d2b61fa3f0a3420532.bindPopup(popup_4dc0c86feb9b4261a575a0f06b92a213)
+        ;
+
+        
+    
+    
+            var circle_marker_4bd52b5be96d432188b922c3a4618dff = L.circleMarker(
+                [47.6864609, -122.3422674],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_29b1eb9cc033484cacabfe4fc7bb341a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f4b1998d689458d9f957042af71ee69 = $(`<div id="html_8f4b1998d689458d9f957042af71ee69" style="width: 100.0%; height: 100.0%;">Daniel Bagley Elementary</div>`)[0];
+            popup_29b1eb9cc033484cacabfe4fc7bb341a.setContent(html_8f4b1998d689458d9f957042af71ee69);
+        
+
+        circle_marker_4bd52b5be96d432188b922c3a4618dff.bindPopup(popup_29b1eb9cc033484cacabfe4fc7bb341a)
+        ;
+
+        
+    
+    
+            var circle_marker_7d3cf9e0f9f84d8eb91164df9cef765e = L.circleMarker(
+                [47.5522674, -122.2962424],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_3c714c7201044095825f3e3d3c8f9cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd4d43c024734bc59a00c0d6d9a0cdbe = $(`<div id="html_cd4d43c024734bc59a00c0d6d9a0cdbe" style="width: 100.0%; height: 100.0%;">Dearborn Park International Elementary</div>`)[0];
+            popup_3c714c7201044095825f3e3d3c8f9cb1.setContent(html_cd4d43c024734bc59a00c0d6d9a0cdbe);
+        
+
+        circle_marker_7d3cf9e0f9f84d8eb91164df9cef765e.bindPopup(popup_3c714c7201044095825f3e3d3c8f9cb1)
+        ;
+
+        
+    
+    
+            var circle_marker_8987506074ca4d20966299f251ecb9ce = L.circleMarker(
+                [47.6856334, -122.2825499],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_f46cee0a21ca4dfabfc7d5a541bcd552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca0a61b1fa724ba68cd021fadf474e33 = $(`<div id="html_ca0a61b1fa724ba68cd021fadf474e33" style="width: 100.0%; height: 100.0%;">Decatur Elementary</div>`)[0];
+            popup_f46cee0a21ca4dfabfc7d5a541bcd552.setContent(html_ca0a61b1fa724ba68cd021fadf474e33);
+        
+
+        circle_marker_8987506074ca4d20966299f251ecb9ce.bindPopup(popup_f46cee0a21ca4dfabfc7d5a541bcd552)
+        ;
+
+        
+    
+    
+            var circle_marker_121caf4ffd43454f9689fbf411ab168c = L.circleMarker(
+                [47.5300051, -122.3659881],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_fec8d65be25d48c8a281e12b761ea090 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a34f41b57b8c41dda46d0d8b1edcc80c = $(`<div id="html_a34f41b57b8c41dda46d0d8b1edcc80c" style="width: 100.0%; height: 100.0%;">Denny International Middle School</div>`)[0];
+            popup_fec8d65be25d48c8a281e12b761ea090.setContent(html_a34f41b57b8c41dda46d0d8b1edcc80c);
+        
+
+        circle_marker_121caf4ffd43454f9689fbf411ab168c.bindPopup(popup_fec8d65be25d48c8a281e12b761ea090)
+        ;
+
+        
+    
+    
+            var circle_marker_c6bb98500cdb4035a7a4eca1176495b4 = L.circleMarker(
+                [47.525034, -122.2747056],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_1a07855ce2254e5b85c0308c3479b81f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7393c605cc63469faf30a314f3b982f5 = $(`<div id="html_7393c605cc63469faf30a314f3b982f5" style="width: 100.0%; height: 100.0%;">Dunlap Elementary</div>`)[0];
+            popup_1a07855ce2254e5b85c0308c3479b81f.setContent(html_7393c605cc63469faf30a314f3b982f5);
+        
+
+        circle_marker_c6bb98500cdb4035a7a4eca1176495b4.bindPopup(popup_1a07855ce2254e5b85c0308c3479b81f)
+        ;
+
+        
+    
+    
+            var circle_marker_5702f38c6a20494d876d776e850d505a = L.circleMarker(
+                [47.6822785, -122.2949839],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_7e6ee556d48c45a496cb30f4730290a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_340681711d2040cf9a9711f03335c1ea = $(`<div id="html_340681711d2040cf9a9711f03335c1ea" style="width: 100.0%; height: 100.0%;">Eckstein Middle School</div>`)[0];
+            popup_7e6ee556d48c45a496cb30f4730290a2.setContent(html_340681711d2040cf9a9711f03335c1ea);
+        
+
+        circle_marker_5702f38c6a20494d876d776e850d505a.bindPopup(popup_7e6ee556d48c45a496cb30f4730290a2)
+        ;
+
+        
+    
+    
+            var circle_marker_4737a3be0ad248669d0c5409fb58de74 = L.circleMarker(
+                [47.51463589999999, -122.2588732],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_bb5128f9ad894db3996102fccbcb0cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4142c50b7944f2c9b8705085dde50ad = $(`<div id="html_f4142c50b7944f2c9b8705085dde50ad" style="width: 100.0%; height: 100.0%;">Emerson Elementary</div>`)[0];
+            popup_bb5128f9ad894db3996102fccbcb0cc2.setContent(html_f4142c50b7944f2c9b8705085dde50ad);
+        
+
+        circle_marker_4737a3be0ad248669d0c5409fb58de74.bindPopup(popup_bb5128f9ad894db3996102fccbcb0cc2)
+        ;
+
+        
+    
+    
+            var circle_marker_7331186f1b9e4c18817e784e8bd67197 = L.circleMarker(
+                [47.5525757, -122.3804661],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_13b96a6ccbd6464caa897ad16f021ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3381641218dd4879a275f7bf614b8a09 = $(`<div id="html_3381641218dd4879a275f7bf614b8a09" style="width: 100.0%; height: 100.0%;">Fairmount Park Elementary</div>`)[0];
+            popup_13b96a6ccbd6464caa897ad16f021ed0.setContent(html_3381641218dd4879a275f7bf614b8a09);
+        
+
+        circle_marker_7331186f1b9e4c18817e784e8bd67197.bindPopup(popup_13b96a6ccbd6464caa897ad16f021ed0)
+        ;
+
+        
+    
+    
+            var circle_marker_0c8f2c7be4824a4b99d7638d5568dea0 = L.circleMarker(
+                [47.5761165, -122.2927694],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_f0e7db295739483f855e6c7740d58169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b77fa4b37c15415f9f2099049f9e04c7 = $(`<div id="html_b77fa4b37c15415f9f2099049f9e04c7" style="width: 100.0%; height: 100.0%;">Franklin High School</div>`)[0];
+            popup_f0e7db295739483f855e6c7740d58169.setContent(html_b77fa4b37c15415f9f2099049f9e04c7);
+        
+
+        circle_marker_0c8f2c7be4824a4b99d7638d5568dea0.bindPopup(popup_f0e7db295739483f855e6c7740d58169)
+        ;
+
+        
+    
+    
+            var circle_marker_e94b7bac06184be49bf94b8da16c0875 = L.circleMarker(
+                [47.6050383, -122.3018514],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_37a2e3e71273444793745e23b7243848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ed16aba1bc44159969cfb2f3454b79 = $(`<div id="html_53ed16aba1bc44159969cfb2f3454b79" style="width: 100.0%; height: 100.0%;">Garfield High School</div>`)[0];
+            popup_37a2e3e71273444793745e23b7243848.setContent(html_53ed16aba1bc44159969cfb2f3454b79);
+        
+
+        circle_marker_e94b7bac06184be49bf94b8da16c0875.bindPopup(popup_37a2e3e71273444793745e23b7243848)
+        ;
+
+        
+    
+    
+            var circle_marker_0526e538bdb64bcaa8c12901b8586e1d = L.circleMarker(
+                [47.5403201, -122.3887929],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_521486460519446bb490a0657bbc2d28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfe3b087deef4eaf9376e5bce55e1c13 = $(`<div id="html_bfe3b087deef4eaf9376e5bce55e1c13" style="width: 100.0%; height: 100.0%;">Gatewood Elementary</div>`)[0];
+            popup_521486460519446bb490a0657bbc2d28.setContent(html_bfe3b087deef4eaf9376e5bce55e1c13);
+        
+
+        circle_marker_0526e538bdb64bcaa8c12901b8586e1d.bindPopup(popup_521486460519446bb490a0657bbc2d28)
+        ;
+
+        
+    
+    
+            var circle_marker_a0b562d3cc1646fd9fc3e04a0ea430f4 = L.circleMarker(
+                [47.5664503, -122.396315],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_fb70bb1af89b4d52819cd495d759902a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d04aa1f1180741c091c8574293a35fcb = $(`<div id="html_d04aa1f1180741c091c8574293a35fcb" style="width: 100.0%; height: 100.0%;">Genesee Hill Elementary</div>`)[0];
+            popup_fb70bb1af89b4d52819cd495d759902a.setContent(html_d04aa1f1180741c091c8574293a35fcb);
+        
+
+        circle_marker_a0b562d3cc1646fd9fc3e04a0ea430f4.bindPopup(popup_fb70bb1af89b4d52819cd495d759902a)
+        ;
+
+        
+    
+    
+            var circle_marker_87ab3c6e365f40e19522f71978133745 = L.circleMarker(
+                [47.5454727, -122.2683963],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_8d857e3aeb3c44be9e67138d376c433b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ec22f452ec4ea3b4d1d37561fe764a = $(`<div id="html_97ec22f452ec4ea3b4d1d37561fe764a" style="width: 100.0%; height: 100.0%;">Graham Hill Elementary</div>`)[0];
+            popup_8d857e3aeb3c44be9e67138d376c433b.setContent(html_97ec22f452ec4ea3b4d1d37561fe764a);
+        
+
+        circle_marker_87ab3c6e365f40e19522f71978133745.bindPopup(popup_8d857e3aeb3c44be9e67138d376c433b)
+        ;
+
+        
+    
+    
+            var circle_marker_5d3271eba459408c808a8d6e7e26cff6 = L.circleMarker(
+                [47.6763331, -122.3286158],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_30cbc85de0ec4d128d4fe118f0f6e39d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_584c8945982a42b298286c691077491f = $(`<div id="html_584c8945982a42b298286c691077491f" style="width: 100.0%; height: 100.0%;">Green Lake Elementary</div>`)[0];
+            popup_30cbc85de0ec4d128d4fe118f0f6e39d.setContent(html_584c8945982a42b298286c691077491f);
+        
+
+        circle_marker_5d3271eba459408c808a8d6e7e26cff6.bindPopup(popup_30cbc85de0ec4d128d4fe118f0f6e39d)
+        ;
+
+        
+    
+    
+            var circle_marker_b4001ec5bbf24cc19dac84f9f957f263 = L.circleMarker(
+                [47.6872476, -122.3599141],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_01865636bd9b42d09ec45fa93c86d8fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c3c5a1c96445f4962abeb9bced234a = $(`<div id="html_14c3c5a1c96445f4962abeb9bced234a" style="width: 100.0%; height: 100.0%;">Greenwood Elementary</div>`)[0];
+            popup_01865636bd9b42d09ec45fa93c86d8fc.setContent(html_14c3c5a1c96445f4962abeb9bced234a);
+        
+
+        circle_marker_b4001ec5bbf24cc19dac84f9f957f263.bindPopup(popup_01865636bd9b42d09ec45fa93c86d8fc)
+        ;
+
+        
+    
+    
+            var circle_marker_7b90c31d055942489214136e1461266d = L.circleMarker(
+                [47.6577259, -122.3382436],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_04564bfbe97e426395869af52efc3f0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a2b3cecb3214961814c5feefc0341b9 = $(`<div id="html_7a2b3cecb3214961814c5feefc0341b9" style="width: 100.0%; height: 100.0%;">Hamilton International Middle School</div>`)[0];
+            popup_04564bfbe97e426395869af52efc3f0b.setContent(html_7a2b3cecb3214961814c5feefc0341b9);
+        
+
+        circle_marker_7b90c31d055942489214136e1461266d.bindPopup(popup_04564bfbe97e426395869af52efc3f0b)
+        ;
+
+        
+    
+    
+            var circle_marker_e5101598cd6243289ddefcd4e87c9d63 = L.circleMarker(
+                [47.565712, -122.2834094],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_168f408da92e49bca7443e2102140c82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63bb45181c704278a46b6d07db1e3eba = $(`<div id="html_63bb45181c704278a46b6d07db1e3eba" style="width: 100.0%; height: 100.0%;">Hawthorne Elementary</div>`)[0];
+            popup_168f408da92e49bca7443e2102140c82.setContent(html_63bb45181c704278a46b6d07db1e3eba);
+        
+
+        circle_marker_e5101598cd6243289ddefcd4e87c9d63.bindPopup(popup_168f408da92e49bca7443e2102140c82)
+        ;
+
+        
+    
+    
+            var circle_marker_f1d9b69b53ad4ad98da87a284711ee28 = L.circleMarker(
+                [47.7135772, -122.3144634],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_cb6180c7a7f147ecae6f003c8b5fb85e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b08a47f09944b24935822711a1ba68f = $(`<div id="html_3b08a47f09944b24935822711a1ba68f" style="width: 100.0%; height: 100.0%;">Hazel Wolf K-8</div>`)[0];
+            popup_cb6180c7a7f147ecae6f003c8b5fb85e.setContent(html_3b08a47f09944b24935822711a1ba68f);
+        
+
+        circle_marker_f1d9b69b53ad4ad98da87a284711ee28.bindPopup(popup_cb6180c7a7f147ecae6f003c8b5fb85e)
+        ;
+
+        
+    
+    
+            var circle_marker_a1aa5ebec74f44aeb68a48f71f539ee3 = L.circleMarker(
+                [47.5256805, -122.3486115],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_9545b7ef937b4f34a724955c5708cc27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90306acf3e06431395246a7a612d2abc = $(`<div id="html_90306acf3e06431395246a7a612d2abc" style="width: 100.0%; height: 100.0%;">Highland Park Elementary</div>`)[0];
+            popup_9545b7ef937b4f34a724955c5708cc27.setContent(html_90306acf3e06431395246a7a612d2abc);
+        
+
+        circle_marker_a1aa5ebec74f44aeb68a48f71f539ee3.bindPopup(popup_9545b7ef937b4f34a724955c5708cc27)
+        ;
+
+        
+    
+    
+            var circle_marker_353694a1358041aeb9960e7aaff797b3 = L.circleMarker(
+                [47.7264012, -122.3366054],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_bfcff9b7b2254a4d8315ef30e33ca5c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af07cca40aed49af88fa3e100da00816 = $(`<div id="html_af07cca40aed49af88fa3e100da00816" style="width: 100.0%; height: 100.0%;">Ingraham High School</div>`)[0];
+            popup_bfcff9b7b2254a4d8315ef30e33ca5c5.setContent(html_af07cca40aed49af88fa3e100da00816);
+        
+
+        circle_marker_353694a1358041aeb9960e7aaff797b3.bindPopup(popup_bfcff9b7b2254a4d8315ef30e33ca5c5)
+        ;
+
+        
+    
+    
+            var circle_marker_a5bc751403714efd92dbe37f5c4c450b = L.circleMarker(
+                [47.5582581, -122.2874764],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_bd36c4a23409402b888889969bc1a2cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2caf14eba0a64eb5951104376086817f = $(`<div id="html_2caf14eba0a64eb5951104376086817f" style="width: 100.0%; height: 100.0%;">Interagency Academy</div>`)[0];
+            popup_bd36c4a23409402b888889969bc1a2cc.setContent(html_2caf14eba0a64eb5951104376086817f);
+        
+
+        circle_marker_a5bc751403714efd92dbe37f5c4c450b.bindPopup(popup_bd36c4a23409402b888889969bc1a2cc)
+        ;
+
+        
+    
+    
+            var circle_marker_ba9df1dbcbee4d6aae79c2d27610e3dc = L.circleMarker(
+                [47.7100008, -122.2938023],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_e3a81e279d8944d78362fd6a24bcfa8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c2717259c464d4896ad7d21c9938477 = $(`<div id="html_5c2717259c464d4896ad7d21c9938477" style="width: 100.0%; height: 100.0%;">Jane Addams Middle School</div>`)[0];
+            popup_e3a81e279d8944d78362fd6a24bcfa8f.setContent(html_5c2717259c464d4896ad7d21c9938477);
+        
+
+        circle_marker_ba9df1dbcbee4d6aae79c2d27610e3dc.bindPopup(popup_e3a81e279d8944d78362fd6a24bcfa8f)
+        ;
+
+        
+    
+    
+            var circle_marker_5c3e16ecedd34a708211e513860f2f52 = L.circleMarker(
+                [47.6328518, -122.3521847],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_f98b09630d754c9e9ae1cd30cb412c94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa153b05b2eb466a94edd0518319dfc6 = $(`<div id="html_fa153b05b2eb466a94edd0518319dfc6" style="width: 100.0%; height: 100.0%;">John Hay Elementary</div>`)[0];
+            popup_f98b09630d754c9e9ae1cd30cb412c94.setContent(html_fa153b05b2eb466a94edd0518319dfc6);
+        
+
+        circle_marker_5c3e16ecedd34a708211e513860f2f52.bindPopup(popup_f98b09630d754c9e9ae1cd30cb412c94)
+        ;
+
+        
+    
+    
+            var circle_marker_21feb3d95ca646bc9eba34d692a102df = L.circleMarker(
+                [47.5733393, -122.2907204],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_6c6399e9ac9a4f9586f99eca12bd224e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3815dd2ad554db6823a0008b0c27023 = $(`<div id="html_d3815dd2ad554db6823a0008b0c27023" style="width: 100.0%; height: 100.0%;">John Muir Elementary</div>`)[0];
+            popup_6c6399e9ac9a4f9586f99eca12bd224e.setContent(html_d3815dd2ad554db6823a0008b0c27023);
+        
+
+        circle_marker_21feb3d95ca646bc9eba34d692a102df.bindPopup(popup_6c6399e9ac9a4f9586f99eca12bd224e)
+        ;
+
+        
+    
+    
+            var circle_marker_41e2075b746140ae96f1f8d92718ab34 = L.circleMarker(
+                [47.7074411, -122.2847591],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_1be97456aeca4e8db6ff74c1f32be67c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7471cc7ac6284fa7b5e74617ccb631ed = $(`<div id="html_7471cc7ac6284fa7b5e74617ccb631ed" style="width: 100.0%; height: 100.0%;">John Rogers Elementary</div>`)[0];
+            popup_1be97456aeca4e8db6ff74c1f32be67c.setContent(html_7471cc7ac6284fa7b5e74617ccb631ed);
+        
+
+        circle_marker_41e2075b746140ae96f1f8d92718ab34.bindPopup(popup_1be97456aeca4e8db6ff74c1f32be67c)
+        ;
+
+        
+    
+    
+            var circle_marker_27f09d754da4427fa7edbf5cb5a29a0b = L.circleMarker(
+                [47.6571887, -122.3239022],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_be785bccc19944eeaf0db105bdfa9709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_163b2a8b99f64506b709969b62547b85 = $(`<div id="html_163b2a8b99f64506b709969b62547b85" style="width: 100.0%; height: 100.0%;">John Stanford International Elementary</div>`)[0];
+            popup_be785bccc19944eeaf0db105bdfa9709.setContent(html_163b2a8b99f64506b709969b62547b85);
+        
+
+        circle_marker_27f09d754da4427fa7edbf5cb5a29a0b.bindPopup(popup_be785bccc19944eeaf0db105bdfa9709)
+        ;
+
+        
+    
+    
+            var circle_marker_0b29e08f5c4049ca90c118899349164d = L.circleMarker(
+                [47.5383179, -122.2965848],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_8591836ad4f74d39bc4e4f571f68c834 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2028684b8104afaaff4172b8fb0b9cb = $(`<div id="html_c2028684b8104afaaff4172b8fb0b9cb" style="width: 100.0%; height: 100.0%;">Kimball Elementary</div>`)[0];
+            popup_8591836ad4f74d39bc4e4f571f68c834.setContent(html_c2028684b8104afaaff4172b8fb0b9cb);
+        
+
+        circle_marker_0b29e08f5c4049ca90c118899349164d.bindPopup(popup_8591836ad4f74d39bc4e4f571f68c834)
+        ;
+
+        
+    
+    
+            var circle_marker_693d00215c57465186b297540b9d47c5 = L.circleMarker(
+                [47.580006, -122.387071],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_39bee35e587b4190ae1958a43651aad7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_068d4d472d9f41ba94c701cadda43f70 = $(`<div id="html_068d4d472d9f41ba94c701cadda43f70" style="width: 100.0%; height: 100.0%;">Lafayette Elementary</div>`)[0];
+            popup_39bee35e587b4190ae1958a43651aad7.setContent(html_068d4d472d9f41ba94c701cadda43f70);
+        
+
+        circle_marker_693d00215c57465186b297540b9d47c5.bindPopup(popup_39bee35e587b4190ae1958a43651aad7)
+        ;
+
+        
+    
+    
+            var circle_marker_d118a8ecbd554c25bdc1563904f1c9f8 = L.circleMarker(
+                [47.6621998, -122.2780341],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_60d8736b782845ff8597614d81a9e9a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24477e9c55e14ef7a8444502bfe97997 = $(`<div id="html_24477e9c55e14ef7a8444502bfe97997" style="width: 100.0%; height: 100.0%;">Laurelhurst Elementary</div>`)[0];
+            popup_60d8736b782845ff8597614d81a9e9a4.setContent(html_24477e9c55e14ef7a8444502bfe97997);
+        
+
+        circle_marker_d118a8ecbd554c25bdc1563904f1c9f8.bindPopup(popup_60d8736b782845ff8597614d81a9e9a4)
+        ;
+
+        
+    
+    
+            var circle_marker_3eb17738dcb64552b0b652ac6254d728 = L.circleMarker(
+                [47.6567429, -122.3903984],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_c0d39c303664443dbfd6964105e61973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80c1447235c643ea97daaff919eeb0b2 = $(`<div id="html_80c1447235c643ea97daaff919eeb0b2" style="width: 100.0%; height: 100.0%;">Lawton Elementary</div>`)[0];
+            popup_c0d39c303664443dbfd6964105e61973.setContent(html_80c1447235c643ea97daaff919eeb0b2);
+        
+
+        circle_marker_3eb17738dcb64552b0b652ac6254d728.bindPopup(popup_c0d39c303664443dbfd6964105e61973)
+        ;
+
+        
+    
+    
+            var circle_marker_3a0ccb97790c47e4a8e47476981d70bf = L.circleMarker(
+                [47.6023241, -122.2917319],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_51f1219fa8b740bf9f93353a877f6277 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f567ddb89af24728b93ef0f52c39f3cb = $(`<div id="html_f567ddb89af24728b93ef0f52c39f3cb" style="width: 100.0%; height: 100.0%;">Leschi Elementary</div>`)[0];
+            popup_51f1219fa8b740bf9f93353a877f6277.setContent(html_f567ddb89af24728b93ef0f52c39f3cb);
+        
+
+        circle_marker_3a0ccb97790c47e4a8e47476981d70bf.bindPopup(popup_51f1219fa8b740bf9f93353a877f6277)
+        ;
+
+        
+    
+    
+            var circle_marker_f86c4e08a992476a8d6b414bdfb5ff81 = L.circleMarker(
+                [47.6780196, -122.3967244],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_57224a939d694a84aaf4a8a7c2ccdb66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6343b949528941e29c7af40e40171ec8 = $(`<div id="html_6343b949528941e29c7af40e40171ec8" style="width: 100.0%; height: 100.0%;">Licton Springs K-8</div>`)[0];
+            popup_57224a939d694a84aaf4a8a7c2ccdb66.setContent(html_6343b949528941e29c7af40e40171ec8);
+        
+
+        circle_marker_f86c4e08a992476a8d6b414bdfb5ff81.bindPopup(popup_57224a939d694a84aaf4a8a7c2ccdb66)
+        ;
+
+        
+    
+    
+            var circle_marker_2e5499c993ff48248879411e3df07d39 = L.circleMarker(
+                [47.65995100000001, -122.3398855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_ac4f5d3f57a84df9b0bda82a12035d96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f4fcf05492c4131a2abb158b9e1b5e0 = $(`<div id="html_7f4fcf05492c4131a2abb158b9e1b5e0" style="width: 100.0%; height: 100.0%;">Lincoln High School</div>`)[0];
+            popup_ac4f5d3f57a84df9b0bda82a12035d96.setContent(html_7f4fcf05492c4131a2abb158b9e1b5e0);
+        
+
+        circle_marker_2e5499c993ff48248879411e3df07d39.bindPopup(popup_ac4f5d3f57a84df9b0bda82a12035d96)
+        ;
+
+        
+    
+    
+            var circle_marker_2b7912d9748f48948fcf12a0eee1ef65 = L.circleMarker(
+                [47.54859, -122.3619128],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_d7c520753c514b43a7e9a4d235b07093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edbc196e3ce4461faab50898b9393121 = $(`<div id="html_edbc196e3ce4461faab50898b9393121" style="width: 100.0%; height: 100.0%;">Louisa Boren K-8</div>`)[0];
+            popup_d7c520753c514b43a7e9a4d235b07093.setContent(html_edbc196e3ce4461faab50898b9393121);
+        
+
+        circle_marker_2b7912d9748f48948fcf12a0eee1ef65.bindPopup(popup_d7c520753c514b43a7e9a4d235b07093)
+        ;
+
+        
+    
+    
+            var circle_marker_6fa4f1046a974f99a89779dc17bf531b = L.circleMarker(
+                [47.6255609, -122.3186525],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_d0d92b03294447f6a6fbef1e58561b35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4386cc84e9f04ab28ae1959045f9007c = $(`<div id="html_4386cc84e9f04ab28ae1959045f9007c" style="width: 100.0%; height: 100.0%;">Lowell Elementary</div>`)[0];
+            popup_d0d92b03294447f6a6fbef1e58561b35.setContent(html_4386cc84e9f04ab28ae1959045f9007c);
+        
+
+        circle_marker_6fa4f1046a974f99a89779dc17bf531b.bindPopup(popup_d0d92b03294447f6a6fbef1e58561b35)
+        ;
+
+        
+    
+    
+            var circle_marker_4aac347b69ee4592bb24e0d79ace4849 = L.circleMarker(
+                [47.6861109, -122.3888853],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_b67161bfd4bd415c9b3710f6780d7649 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35ea784b47b34e84b0126bfb23d82c70 = $(`<div id="html_35ea784b47b34e84b0126bfb23d82c70" style="width: 100.0%; height: 100.0%;">Loyal Heights Elementary</div>`)[0];
+            popup_b67161bfd4bd415c9b3710f6780d7649.setContent(html_35ea784b47b34e84b0126bfb23d82c70);
+        
+
+        circle_marker_4aac347b69ee4592bb24e0d79ace4849.bindPopup(popup_b67161bfd4bd415c9b3710f6780d7649)
+        ;
+
+        
+    
+    
+            var circle_marker_fc2611aa536345e58fb82c470ea6b6ea = L.circleMarker(
+                [47.5730714, -122.3904699],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_e7bf4b13201a46af8e236bb587d70165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2435046a98404016bfd242daf44baaca = $(`<div id="html_2435046a98404016bfd242daf44baaca" style="width: 100.0%; height: 100.0%;">Madison Middle School</div>`)[0];
+            popup_e7bf4b13201a46af8e236bb587d70165.setContent(html_2435046a98404016bfd242daf44baaca);
+        
+
+        circle_marker_fc2611aa536345e58fb82c470ea6b6ea.bindPopup(popup_e7bf4b13201a46af8e236bb587d70165)
+        ;
+
+        
+    
+    
+            var circle_marker_fc51083d5a0743b4a63b982b18d0b49b = L.circleMarker(
+                [47.6124663, -122.2909046],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_7c6f4a5f05594769bec760d8f9fc3bab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0c9c3b5551747d788ccd6ca485aac10 = $(`<div id="html_c0c9c3b5551747d788ccd6ca485aac10" style="width: 100.0%; height: 100.0%;">Madrona Elementary</div>`)[0];
+            popup_7c6f4a5f05594769bec760d8f9fc3bab.setContent(html_c0c9c3b5551747d788ccd6ca485aac10);
+        
+
+        circle_marker_fc51083d5a0743b4a63b982b18d0b49b.bindPopup(popup_7c6f4a5f05594769bec760d8f9fc3bab)
+        ;
+
+        
+    
+    
+            var circle_marker_ff5cfb72483f4be89de577f86ed081e9 = L.circleMarker(
+                [47.640457, -122.3922123],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_34459157a0214458bb2e433df4aac525 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa44b8a8ce464172beff74367a4a8de9 = $(`<div id="html_aa44b8a8ce464172beff74367a4a8de9" style="width: 100.0%; height: 100.0%;">Magnolia Elementary</div>`)[0];
+            popup_34459157a0214458bb2e433df4aac525.setContent(html_aa44b8a8ce464172beff74367a4a8de9);
+        
+
+        circle_marker_ff5cfb72483f4be89de577f86ed081e9.bindPopup(popup_34459157a0214458bb2e433df4aac525)
+        ;
+
+        
+    
+    
+            var circle_marker_764e71c25da745e4bff5d74b23a20be8 = L.circleMarker(
+                [47.5580905, -122.3189649],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_cf2fc65d27d244118db7e493f4138548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32987afec29a43ea972a16f3c77f0ac6 = $(`<div id="html_32987afec29a43ea972a16f3c77f0ac6" style="width: 100.0%; height: 100.0%;">Maple Elementary</div>`)[0];
+            popup_cf2fc65d27d244118db7e493f4138548.setContent(html_32987afec29a43ea972a16f3c77f0ac6);
+        
+
+        circle_marker_764e71c25da745e4bff5d74b23a20be8.bindPopup(popup_cf2fc65d27d244118db7e493f4138548)
+        ;
+
+        
+    
+    
+            var circle_marker_abd6723e368d4d04976938455722cd4e = L.circleMarker(
+                [47.5417457, -122.2769761],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_cebc4fdd2a3d423b85f3f284584475ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f002a14ca59e4e9bbb8d46408e9acfb8 = $(`<div id="html_f002a14ca59e4e9bbb8d46408e9acfb8" style="width: 100.0%; height: 100.0%;">Martin Luther King, Jr. Elementary</div>`)[0];
+            popup_cebc4fdd2a3d423b85f3f284584475ab.setContent(html_f002a14ca59e4e9bbb8d46408e9acfb8);
+        
+
+        circle_marker_abd6723e368d4d04976938455722cd4e.bindPopup(popup_cebc4fdd2a3d423b85f3f284584475ab)
+        ;
+
+        
+    
+    
+            var circle_marker_74c42681391d40ebb2b3238acbc7e0bf = L.circleMarker(
+                [47.6365845, -122.3589425],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_c4b5a02312d7497ba3fdfe80c0a6aa57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bda6cb4df644a79a29d42a5284d8e42 = $(`<div id="html_5bda6cb4df644a79a29d42a5284d8e42" style="width: 100.0%; height: 100.0%;">McClure Middle School</div>`)[0];
+            popup_c4b5a02312d7497ba3fdfe80c0a6aa57.setContent(html_5bda6cb4df644a79a29d42a5284d8e42);
+        
+
+        circle_marker_74c42681391d40ebb2b3238acbc7e0bf.bindPopup(popup_c4b5a02312d7497ba3fdfe80c0a6aa57)
+        ;
+
+        
+    
+    
+            var circle_marker_6e6508a3137042f5be74982720b2d66d = L.circleMarker(
+                [47.6682677, -122.3265499],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_73b063a85573409a91743164b36bb0ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83d661bb839b4783a875dd61cf8276d0 = $(`<div id="html_83d661bb839b4783a875dd61cf8276d0" style="width: 100.0%; height: 100.0%;">McDonald International Elementary</div>`)[0];
+            popup_73b063a85573409a91743164b36bb0ef.setContent(html_83d661bb839b4783a875dd61cf8276d0);
+        
+
+        circle_marker_6e6508a3137042f5be74982720b2d66d.bindPopup(popup_73b063a85573409a91743164b36bb0ef)
+        ;
+
+        
+    
+    
+            var circle_marker_bdb78270cb254cdf97378bf308b153f2 = L.circleMarker(
+                [47.63402130000001, -122.2848379],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_9f12e07ac9e34b0181c10706f5d761b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ea0c6e83e4447f4a04c697e3fcf42b0 = $(`<div id="html_5ea0c6e83e4447f4a04c697e3fcf42b0" style="width: 100.0%; height: 100.0%;">McGilvra Elementary</div>`)[0];
+            popup_9f12e07ac9e34b0181c10706f5d761b2.setContent(html_5ea0c6e83e4447f4a04c697e3fcf42b0);
+        
+
+        circle_marker_bdb78270cb254cdf97378bf308b153f2.bindPopup(popup_9f12e07ac9e34b0181c10706f5d761b2)
+        ;
+
+        
+    
+    
+            var circle_marker_f67224e7b1a3406fbf01377bae01ef5b = L.circleMarker(
+                [47.62219450000001, -122.3053784],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_47b0f85ae1cc4606b69762ef1f2c14f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7e53cb6801f44a5994a84f2574f7a08 = $(`<div id="html_e7e53cb6801f44a5994a84f2574f7a08" style="width: 100.0%; height: 100.0%;">Meany Middle School</div>`)[0];
+            popup_47b0f85ae1cc4606b69762ef1f2c14f4.setContent(html_e7e53cb6801f44a5994a84f2574f7a08);
+        
+
+        circle_marker_f67224e7b1a3406fbf01377bae01ef5b.bindPopup(popup_47b0f85ae1cc4606b69762ef1f2c14f4)
+        ;
+
+        
+    
+    
+            var circle_marker_3b53f0d36f52441fa72fb1f3a82b9e7d = L.circleMarker(
+                [47.56376359999999, -122.3115981],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_0d5a1781121047ecb9bcb35e2784723e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b1d489962564b13beab6a6679896bf0 = $(`<div id="html_1b1d489962564b13beab6a6679896bf0" style="width: 100.0%; height: 100.0%;">Mercer International Middle School</div>`)[0];
+            popup_0d5a1781121047ecb9bcb35e2784723e.setContent(html_1b1d489962564b13beab6a6679896bf0);
+        
+
+        circle_marker_3b53f0d36f52441fa72fb1f3a82b9e7d.bindPopup(popup_0d5a1781121047ecb9bcb35e2784723e)
+        ;
+
+        
+    
+    
+            var circle_marker_c38750e71f494efd8e4fb312a098f29b = L.circleMarker(
+                [47.6406264, -122.3046037],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_c91c8db205b04cbeb71ba968fa3fc12d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f744a065ff2440e2bb187a18e5aedeac = $(`<div id="html_f744a065ff2440e2bb187a18e5aedeac" style="width: 100.0%; height: 100.0%;">Montlake Elementary</div>`)[0];
+            popup_c91c8db205b04cbeb71ba968fa3fc12d.setContent(html_f744a065ff2440e2bb187a18e5aedeac);
+        
+
+        circle_marker_c38750e71f494efd8e4fb312a098f29b.bindPopup(popup_c91c8db205b04cbeb71ba968fa3fc12d)
+        ;
+
+        
+    
+    
+            var circle_marker_26aa5ee840894af2a34255de882cf0ee = L.circleMarker(
+                [47.7075788, -122.2941443],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_f4b535e0a99d4ef69fb3f74343e7962a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19fedffb299e4c98bdcca8288ae17510 = $(`<div id="html_19fedffb299e4c98bdcca8288ae17510" style="width: 100.0%; height: 100.0%;">Nathan Hale High School</div>`)[0];
+            popup_f4b535e0a99d4ef69fb3f74343e7962a.setContent(html_19fedffb299e4c98bdcca8288ae17510);
+        
+
+        circle_marker_26aa5ee840894af2a34255de882cf0ee.bindPopup(popup_f4b535e0a99d4ef69fb3f74343e7962a)
+        ;
+
+        
+    
+    
+            var circle_marker_75bb6bd3e4864d96823e8de49b363db9 = L.circleMarker(
+                [47.69490769999999, -122.3871277],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_306dc2b2e38d487699813d5852f08d12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a03e53d8a8d54997aedc78962cc07239 = $(`<div id="html_a03e53d8a8d54997aedc78962cc07239" style="width: 100.0%; height: 100.0%;">North Beach Elementary</div>`)[0];
+            popup_306dc2b2e38d487699813d5852f08d12.setContent(html_a03e53d8a8d54997aedc78962cc07239);
+        
+
+        circle_marker_75bb6bd3e4864d96823e8de49b363db9.bindPopup(popup_306dc2b2e38d487699813d5852f08d12)
+        ;
+
+        
+    
+    
+            var circle_marker_1c55f6402644473fb35e9da95ef9a155 = L.circleMarker(
+                [47.7148062, -122.3294812],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_90897674dfa64f86b170bb969dbadbee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5023342ef57468d9a078ace777f6166 = $(`<div id="html_d5023342ef57468d9a078ace777f6166" style="width: 100.0%; height: 100.0%;">Northgate Elementary</div>`)[0];
+            popup_90897674dfa64f86b170bb969dbadbee.setContent(html_d5023342ef57468d9a078ace777f6166);
+        
+
+        circle_marker_1c55f6402644473fb35e9da95ef9a155.bindPopup(popup_90897674dfa64f86b170bb969dbadbee)
+        ;
+
+        
+    
+    
+            var circle_marker_078d6dae2f3641fa8d9725616ed55fa2 = L.circleMarker(
+                [47.6087378, -122.3010179],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_0f9e3a21b9ae499cab79c5b96b94f3c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_956931d84b514052885bd341b723d39f = $(`<div id="html_956931d84b514052885bd341b723d39f" style="width: 100.0%; height: 100.0%;">Nova</div>`)[0];
+            popup_0f9e3a21b9ae499cab79c5b96b94f3c8.setContent(html_956931d84b514052885bd341b723d39f);
+        
+
+        circle_marker_078d6dae2f3641fa8d9725616ed55fa2.bindPopup(popup_0f9e3a21b9ae499cab79c5b96b94f3c8)
+        ;
+
+        
+    
+    
+            var circle_marker_51d04441dac44f8297d26892ce521d46 = L.circleMarker(
+                [47.7237217, -122.3066345],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_2a042a67dffd402b942b83a3a3d1fae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d52a6dd207f4b31b96836157d3df10d = $(`<div id="html_9d52a6dd207f4b31b96836157d3df10d" style="width: 100.0%; height: 100.0%;">Olympic Hills Elementary</div>`)[0];
+            popup_2a042a67dffd402b942b83a3a3d1fae1.setContent(html_9d52a6dd207f4b31b96836157d3df10d);
+        
+
+        circle_marker_51d04441dac44f8297d26892ce521d46.bindPopup(popup_2a042a67dffd402b942b83a3a3d1fae1)
+        ;
+
+        
+    
+    
+            var circle_marker_2b1bebbf28084d10b825256acae08f07 = L.circleMarker(
+                [47.6981635, -122.3211883],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_c71ca01577414c798d8b06c30d588853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cac4a2e18bba41c29fcc8f72eb619e77 = $(`<div id="html_cac4a2e18bba41c29fcc8f72eb619e77" style="width: 100.0%; height: 100.0%;">Olympic View Elementary</div>`)[0];
+            popup_c71ca01577414c798d8b06c30d588853.setContent(html_cac4a2e18bba41c29fcc8f72eb619e77);
+        
+
+        circle_marker_2b1bebbf28084d10b825256acae08f07.bindPopup(popup_c71ca01577414c798d8b06c30d588853)
+        ;
+
+        
+    
+    
+            var circle_marker_eea2d490585e44ac909abdb573fde71d = L.circleMarker(
+                [47.5546657, -122.2760114],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_cc6ffc9c708c45b2a77d6332226f5feb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e36c21c344a9478fb38181a7990fdd66 = $(`<div id="html_e36c21c344a9478fb38181a7990fdd66" style="width: 100.0%; height: 100.0%;">Orca K-8</div>`)[0];
+            popup_cc6ffc9c708c45b2a77d6332226f5feb.setContent(html_e36c21c344a9478fb38181a7990fdd66);
+        
+
+        circle_marker_eea2d490585e44ac909abdb573fde71d.bindPopup(popup_cc6ffc9c708c45b2a77d6332226f5feb)
+        ;
+
+        
+    
+    
+            var circle_marker_0967fc28503a4595933de613ebc2f66f = L.circleMarker(
+                [47.5625926, -122.3579319],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_ecd44571ec5f40399691bc7df313ec81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81a49730e72f4026bc807c594fcfecfa = $(`<div id="html_81a49730e72f4026bc807c594fcfecfa" style="width: 100.0%; height: 100.0%;">Pathfinder K-8</div>`)[0];
+            popup_ecd44571ec5f40399691bc7df313ec81.setContent(html_81a49730e72f4026bc807c594fcfecfa);
+        
+
+        circle_marker_0967fc28503a4595933de613ebc2f66f.bindPopup(popup_ecd44571ec5f40399691bc7df313ec81)
+        ;
+
+        
+    
+    
+            var circle_marker_659eebf3e8e94445b755d6f9f4b330e4 = L.circleMarker(
+                [47.63787079999999, -122.3490708],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_0db13255185c45cbb77a8ec3350a544a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64bffff386df411c9cf1a9f1518470d5 = $(`<div id="html_64bffff386df411c9cf1a9f1518470d5" style="width: 100.0%; height: 100.0%;">Queen Anne Elementary</div>`)[0];
+            popup_0db13255185c45cbb77a8ec3350a544a.setContent(html_64bffff386df411c9cf1a9f1518470d5);
+        
+
+        circle_marker_659eebf3e8e94445b755d6f9f4b330e4.bindPopup(popup_0db13255185c45cbb77a8ec3350a544a)
+        ;
+
+        
+    
+    
+            var circle_marker_7f4e84b01b9c44d8b13d1fffc5e93615 = L.circleMarker(
+                [47.5244253, -122.266249],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_85177eb66ea148a5afa8bca0d31b10fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00c58717db644455a8999642f1baf195 = $(`<div id="html_00c58717db644455a8999642f1baf195" style="width: 100.0%; height: 100.0%;">Rainier Beach High School</div>`)[0];
+            popup_85177eb66ea148a5afa8bca0d31b10fe.setContent(html_00c58717db644455a8999642f1baf195);
+        
+
+        circle_marker_7f4e84b01b9c44d8b13d1fffc5e93615.bindPopup(popup_85177eb66ea148a5afa8bca0d31b10fe)
+        ;
+
+        
+    
+    
+            var circle_marker_d79f0c1077e946c8920d9f4176f3e923 = L.circleMarker(
+                [47.4990614, -122.2634292],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_e0c0a4bf62df4e78b480381c549c9365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bc24d3afdef438abc8d33e1517b0acc = $(`<div id="html_7bc24d3afdef438abc8d33e1517b0acc" style="width: 100.0%; height: 100.0%;">Rainier View Elementary</div>`)[0];
+            popup_e0c0a4bf62df4e78b480381c549c9365.setContent(html_7bc24d3afdef438abc8d33e1517b0acc);
+        
+
+        circle_marker_d79f0c1077e946c8920d9f4176f3e923.bindPopup(popup_e0c0a4bf62df4e78b480381c549c9365)
+        ;
+
+        
+    
+    
+            var circle_marker_191874dd06c4408f9ec8cebd742acc45 = L.circleMarker(
+                [47.5289584, -122.2888446],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_89180c6efc124cd0be81a05be6e0c079 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae939dcb10ae42e0b1f2ed7211152b49 = $(`<div id="html_ae939dcb10ae42e0b1f2ed7211152b49" style="width: 100.0%; height: 100.0%;">Rising Star Elementary</div>`)[0];
+            popup_89180c6efc124cd0be81a05be6e0c079.setContent(html_ae939dcb10ae42e0b1f2ed7211152b49);
+        
+
+        circle_marker_191874dd06c4408f9ec8cebd742acc45.bindPopup(popup_89180c6efc124cd0be81a05be6e0c079)
+        ;
+
+        
+    
+    
+            var circle_marker_80eeb260f0b1463395aedd6ff70dd63c = L.circleMarker(
+                [47.6950753, -122.3390238],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_9fa6189c75874ade95bd126cbe1445d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48740bb7e2f648f88bf1410b850332ec = $(`<div id="html_48740bb7e2f648f88bf1410b850332ec" style="width: 100.0%; height: 100.0%;">Robert Eagle Staff Middle School</div>`)[0];
+            popup_9fa6189c75874ade95bd126cbe1445d9.setContent(html_48740bb7e2f648f88bf1410b850332ec);
+        
+
+        circle_marker_80eeb260f0b1463395aedd6ff70dd63c.bindPopup(popup_9fa6189c75874ade95bd126cbe1445d9)
+        ;
+
+        
+    
+    
+            var circle_marker_a38a1507930e4b6b98e02624f1e20137 = L.circleMarker(
+                [47.6777263, -122.3132558],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_d72e71e1c3354820b4cfe368e5e89557 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_342448bfece0497493c4805d88dedc73 = $(`<div id="html_342448bfece0497493c4805d88dedc73" style="width: 100.0%; height: 100.0%;">Roosevelt High School</div>`)[0];
+            popup_d72e71e1c3354820b4cfe368e5e89557.setContent(html_342448bfece0497493c4805d88dedc73);
+        
+
+        circle_marker_a38a1507930e4b6b98e02624f1e20137.bindPopup(popup_d72e71e1c3354820b4cfe368e5e89557)
+        ;
+
+        
+    
+    
+            var circle_marker_df1e4d7df2e348e5ab69474cabb6567f = L.circleMarker(
+                [47.5327784, -122.3747386],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_0a4616ffa08040dab4ee0ef2fcf212f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6df71f2da14341cdb7a00f9b57f2837f = $(`<div id="html_6df71f2da14341cdb7a00f9b57f2837f" style="width: 100.0%; height: 100.0%;">Roxhill Elementary</div>`)[0];
+            popup_0a4616ffa08040dab4ee0ef2fcf212f1.setContent(html_6df71f2da14341cdb7a00f9b57f2837f);
+        
+
+        circle_marker_df1e4d7df2e348e5ab69474cabb6567f.bindPopup(popup_0a4616ffa08040dab4ee0ef2fcf212f1)
+        ;
+
+        
+    
+    
+            var circle_marker_deb35436e5ec42688e814ede95876b23 = L.circleMarker(
+                [47.69853250000001, -122.3076125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_0441a350e5814a29851a09ad970e540c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b9c5b7f08374de0ac052573e85bee85 = $(`<div id="html_0b9c5b7f08374de0ac052573e85bee85" style="width: 100.0%; height: 100.0%;">Sacajawea Elementary</div>`)[0];
+            popup_0441a350e5814a29851a09ad970e540c.setContent(html_0b9c5b7f08374de0ac052573e85bee85);
+        
+
+        circle_marker_deb35436e5ec42688e814ede95876b23.bindPopup(popup_0441a350e5814a29851a09ad970e540c)
+        ;
+
+        
+    
+    
+            var circle_marker_c2a5d77e3afd498da9862634b48985c0 = L.circleMarker(
+                [47.6765508, -122.3804837],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_c9034e9b1ebd4a79a3987e668f75f751 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ef8c8db08d6447d9a516ffbef71b2bb = $(`<div id="html_8ef8c8db08d6447d9a516ffbef71b2bb" style="width: 100.0%; height: 100.0%;">Salmon Bay K-8</div>`)[0];
+            popup_c9034e9b1ebd4a79a3987e668f75f751.setContent(html_8ef8c8db08d6447d9a516ffbef71b2bb);
+        
+
+        circle_marker_c2a5d77e3afd498da9862634b48985c0.bindPopup(popup_c9034e9b1ebd4a79a3987e668f75f751)
+        ;
+
+        
+    
+    
+            var circle_marker_31200d1ef45a4c9791395af24f744eab = L.circleMarker(
+                [47.6735363, -122.2628221],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_e7fb0fff339d4cdeb2aa8888e08fd01a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b91429c38f4255b644ba3953786693 = $(`<div id="html_e5b91429c38f4255b644ba3953786693" style="width: 100.0%; height: 100.0%;">Sand Point Elementary</div>`)[0];
+            popup_e7fb0fff339d4cdeb2aa8888e08fd01a.setContent(html_e5b91429c38f4255b644ba3953786693);
+        
+
+        circle_marker_31200d1ef45a4c9791395af24f744eab.bindPopup(popup_e7fb0fff339d4cdeb2aa8888e08fd01a)
+        ;
+
+        
+    
+    
+            var circle_marker_5a836ed88c9748b4a0a2cddb794648dc = L.circleMarker(
+                [47.5398645, -122.3589476],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_75a69f95a26942aeb635263d6a07890a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09a718084f674f83bb599013f24e7ddd = $(`<div id="html_09a718084f674f83bb599013f24e7ddd" style="width: 100.0%; height: 100.0%;">Sanislo Elementary</div>`)[0];
+            popup_75a69f95a26942aeb635263d6a07890a.setContent(html_09a718084f674f83bb599013f24e7ddd);
+        
+
+        circle_marker_5a836ed88c9748b4a0a2cddb794648dc.bindPopup(popup_75a69f95a26942aeb635263d6a07890a)
+        ;
+
+        
+    
+    
+            var circle_marker_b257d92b316d446ca1402c3cd24ef460 = L.circleMarker(
+                [47.6134103, -122.3095186],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_9220b20a628b4bfc891cdfdb35ea187b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e50e214641d94cb291c649d338421ceb = $(`<div id="html_e50e214641d94cb291c649d338421ceb" style="width: 100.0%; height: 100.0%;">Seattle World School</div>`)[0];
+            popup_9220b20a628b4bfc891cdfdb35ea187b.setContent(html_e50e214641d94cb291c649d338421ceb);
+        
+
+        circle_marker_b257d92b316d446ca1402c3cd24ef460.bindPopup(popup_9220b20a628b4bfc891cdfdb35ea187b)
+        ;
+
+        
+    
+    
+            var circle_marker_2f63e0e287f648e69b4fc28833135ac3 = L.circleMarker(
+                [47.5812152, -122.3303432],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_e81f0c7ffe2f4e9d906a08c2132c473f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35d89d2761454373b666beae5086f777 = $(`<div id="html_35d89d2761454373b666beae5086f777" style="width: 100.0%; height: 100.0%;">Skills Center</div>`)[0];
+            popup_e81f0c7ffe2f4e9d906a08c2132c473f.setContent(html_35d89d2761454373b666beae5086f777);
+        
+
+        circle_marker_2f63e0e287f648e69b4fc28833135ac3.bindPopup(popup_e81f0c7ffe2f4e9d906a08c2132c473f)
+        ;
+
+        
+    
+    
+            var circle_marker_69a3d1169ed7488cb85d23b8953c9adc = L.circleMarker(
+                [47.52408560000001, -122.2717204],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_1ccc4c3b4a9a453782e024a04de69873 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e2dd29b6f334bdf8c2970f540675b93 = $(`<div id="html_7e2dd29b6f334bdf8c2970f540675b93" style="width: 100.0%; height: 100.0%;">South Shore PK-8</div>`)[0];
+            popup_1ccc4c3b4a9a453782e024a04de69873.setContent(html_7e2dd29b6f334bdf8c2970f540675b93);
+        
+
+        circle_marker_69a3d1169ed7488cb85d23b8953c9adc.bindPopup(popup_1ccc4c3b4a9a453782e024a04de69873)
+        ;
+
+        
+    
+    
+            var circle_marker_5b50715fc5dc4f2486797063a6880d5c = L.circleMarker(
+                [47.6314908, -122.307573],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_9a551b2aa013444e8ed6a1d32b2515ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d78096058924faca60c8da88b4cd678 = $(`<div id="html_2d78096058924faca60c8da88b4cd678" style="width: 100.0%; height: 100.0%;">Stevens Elementary</div>`)[0];
+            popup_9a551b2aa013444e8ed6a1d32b2515ce.setContent(html_2d78096058924faca60c8da88b4cd678);
+        
+
+        circle_marker_5b50715fc5dc4f2486797063a6880d5c.bindPopup(popup_9a551b2aa013444e8ed6a1d32b2515ce)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1e134f54f64e5bac36b1d3f9124b6d = L.circleMarker(
+                [47.6228045, -122.3529322],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_29f8089cb40f48d3b2997f2cd080d7ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee4fb24513434fe0a57a9c60f55bdb52 = $(`<div id="html_ee4fb24513434fe0a57a9c60f55bdb52" style="width: 100.0%; height: 100.0%;">The Center School</div>`)[0];
+            popup_29f8089cb40f48d3b2997f2cd080d7ef.setContent(html_ee4fb24513434fe0a57a9c60f55bdb52);
+        
+
+        circle_marker_4c1e134f54f64e5bac36b1d3f9124b6d.bindPopup(popup_29f8089cb40f48d3b2997f2cd080d7ef)
+        ;
+
+        
+    
+    
+            var circle_marker_4439074a5f224c87a37d7167ebaf188e = L.circleMarker(
+                [47.68552, -122.2843972],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_903d85c384b145b79730b3da2e7176c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e54616b22e3e4ae7bb210f64a79e573b = $(`<div id="html_e54616b22e3e4ae7bb210f64a79e573b" style="width: 100.0%; height: 100.0%;">Thornton Creek Elementary</div>`)[0];
+            popup_903d85c384b145b79730b3da2e7176c6.setContent(html_e54616b22e3e4ae7bb210f64a79e573b);
+        
+
+        circle_marker_4439074a5f224c87a37d7167ebaf188e.bindPopup(popup_903d85c384b145b79730b3da2e7176c6)
+        ;
+
+        
+    
+    
+            var circle_marker_e3fde4bdc99c4a06b8c9cc93f7dc2200 = L.circleMarker(
+                [47.5910069, -122.2998132],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_787ff5a81d404145b833a5bde94b1313 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a56946938dd44fa851fe1de0703a0f3 = $(`<div id="html_4a56946938dd44fa851fe1de0703a0f3" style="width: 100.0%; height: 100.0%;">Thurgood Marshall Elementary</div>`)[0];
+            popup_787ff5a81d404145b833a5bde94b1313.setContent(html_4a56946938dd44fa851fe1de0703a0f3);
+        
+
+        circle_marker_e3fde4bdc99c4a06b8c9cc93f7dc2200.bindPopup(popup_787ff5a81d404145b833a5bde94b1313)
+        ;
+
+        
+    
+    
+            var circle_marker_c54d9988e0ef4917b6bd2395c9fb4cfb = L.circleMarker(
+                [47.64290090000001, -122.3238561],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_9a53fc10152942c09175d853a0b053eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d75cb73073814e4b865b1c83768ad50d = $(`<div id="html_d75cb73073814e4b865b1c83768ad50d" style="width: 100.0%; height: 100.0%;">TOPS K-8</div>`)[0];
+            popup_9a53fc10152942c09175d853a0b053eb.setContent(html_d75cb73073814e4b865b1c83768ad50d);
+        
+
+        circle_marker_c54d9988e0ef4917b6bd2395c9fb4cfb.bindPopup(popup_9a53fc10152942c09175d853a0b053eb)
+        ;
+
+        
+    
+    
+            var circle_marker_594e9c555d0540fbbd5934439ca04e27 = L.circleMarker(
+                [47.6806233, -122.276262],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_a9f2205ee4664dbabaccd03381f076e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50a4ee38fbf0443eafca094065f1338e = $(`<div id="html_50a4ee38fbf0443eafca094065f1338e" style="width: 100.0%; height: 100.0%;">View Ridge Elementary</div>`)[0];
+            popup_a9f2205ee4664dbabaccd03381f076e3.setContent(html_50a4ee38fbf0443eafca094065f1338e);
+        
+
+        circle_marker_594e9c555d0540fbbd5934439ca04e27.bindPopup(popup_a9f2205ee4664dbabaccd03381f076e3)
+        ;
+
+        
+    
+    
+            var circle_marker_c20673e50a08487fb3b97f76913b5faa = L.circleMarker(
+                [47.6772263, -122.3223597],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_6ef552acaf1741c487a90315738a5d7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08a8f6d99790480dbb7645b3a09eeefd = $(`<div id="html_08a8f6d99790480dbb7645b3a09eeefd" style="width: 100.0%; height: 100.0%;">Viewlands Elementary</div>`)[0];
+            popup_6ef552acaf1741c487a90315738a5d7c.setContent(html_08a8f6d99790480dbb7645b3a09eeefd);
+        
+
+        circle_marker_c20673e50a08487fb3b97f76913b5faa.bindPopup(popup_6ef552acaf1741c487a90315738a5d7c)
+        ;
+
+        
+    
+    
+            var circle_marker_52cbafe60b664d7184ae22cadf938953 = L.circleMarker(
+                [47.5983724, -122.3041305],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_6bbcdd9da469483d92e7a4c22d94d044 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5375b81e2ee4ba4a3d9ed84aca62182 = $(`<div id="html_e5375b81e2ee4ba4a3d9ed84aca62182" style="width: 100.0%; height: 100.0%;">Washington Middle School</div>`)[0];
+            popup_6bbcdd9da469483d92e7a4c22d94d044.setContent(html_e5375b81e2ee4ba4a3d9ed84aca62182);
+        
+
+        circle_marker_52cbafe60b664d7184ae22cadf938953.bindPopup(popup_6bbcdd9da469483d92e7a4c22d94d044)
+        ;
+
+        
+    
+    
+            var circle_marker_ef5bf55d3fd84696916211fb75753362 = L.circleMarker(
+                [47.6905182, -122.2971347],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_512818af79f24c53ab1b8d04462ca5a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bea4a91617642288ff531c664192e0c = $(`<div id="html_0bea4a91617642288ff531c664192e0c" style="width: 100.0%; height: 100.0%;">Wedgwood Elementary</div>`)[0];
+            popup_512818af79f24c53ab1b8d04462ca5a6.setContent(html_0bea4a91617642288ff531c664192e0c);
+        
+
+        circle_marker_ef5bf55d3fd84696916211fb75753362.bindPopup(popup_512818af79f24c53ab1b8d04462ca5a6)
+        ;
+
+        
+    
+    
+            var circle_marker_9ac50dc666324f189890d776a45bc64b = L.circleMarker(
+                [47.5726105, -122.3967054],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_f422decdfde84879ba2155bc29bd32dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84ce9325597741adb215bf5a75cc3dce = $(`<div id="html_84ce9325597741adb215bf5a75cc3dce" style="width: 100.0%; height: 100.0%;">West Seattle Elementary</div>`)[0];
+            popup_f422decdfde84879ba2155bc29bd32dc.setContent(html_84ce9325597741adb215bf5a75cc3dce);
+        
+
+        circle_marker_9ac50dc666324f189890d776a45bc64b.bindPopup(popup_f422decdfde84879ba2155bc29bd32dc)
+        ;
+
+        
+    
+    
+            var circle_marker_78c6bca4011d4abeb608a217f65b7057 = L.circleMarker(
+                [47.57658439999999, -122.3846008],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_1aa13735b94b4058a4ca9f745fd74fbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c7de2f664344ee7b4f50d6742f101d7 = $(`<div id="html_5c7de2f664344ee7b4f50d6742f101d7" style="width: 100.0%; height: 100.0%;">West Seattle High School</div>`)[0];
+            popup_1aa13735b94b4058a4ca9f745fd74fbf.setContent(html_5c7de2f664344ee7b4f50d6742f101d7);
+        
+
+        circle_marker_78c6bca4011d4abeb608a217f65b7057.bindPopup(popup_1aa13735b94b4058a4ca9f745fd74fbf)
+        ;
+
+        
+    
+    
+            var circle_marker_bc74fac3adb442e79fa894337f622acd = L.circleMarker(
+                [47.6704976, -122.3623028],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_993fa0e1f80b432d819a5c70b63bde98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c0ab7ff4f4f41e2b8d8b3ece8b7fded = $(`<div id="html_2c0ab7ff4f4f41e2b8d8b3ece8b7fded" style="width: 100.0%; height: 100.0%;">West Woodland Elementary</div>`)[0];
+            popup_993fa0e1f80b432d819a5c70b63bde98.setContent(html_2c0ab7ff4f4f41e2b8d8b3ece8b7fded);
+        
+
+        circle_marker_bc74fac3adb442e79fa894337f622acd.bindPopup(popup_993fa0e1f80b432d819a5c70b63bde98)
+        ;
+
+        
+    
+    
+            var circle_marker_9b52d9f274e040f7b23c48cccce7c357 = L.circleMarker(
+                [47.6963787, -122.3778581],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_10d560c317b74812b85c932ee4f75093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a136f265afbd4d0eae39d582d8e78cbf = $(`<div id="html_a136f265afbd4d0eae39d582d8e78cbf" style="width: 100.0%; height: 100.0%;">Whitman Middle School</div>`)[0];
+            popup_10d560c317b74812b85c932ee4f75093.setContent(html_a136f265afbd4d0eae39d582d8e78cbf);
+        
+
+        circle_marker_9b52d9f274e040f7b23c48cccce7c357.bindPopup(popup_10d560c317b74812b85c932ee4f75093)
+        ;
+
+        
+    
+    
+            var circle_marker_52f18fd053a64aad9965e7b5511a68a4 = L.circleMarker(
+                [47.6836394, -122.3733793],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_9bb9af99c80549fcb886b856cdf1806b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1b9c3e0e5ff40cda9fbf38aa4e40ad4 = $(`<div id="html_d1b9c3e0e5ff40cda9fbf38aa4e40ad4" style="width: 100.0%; height: 100.0%;">Whittier Elementary</div>`)[0];
+            popup_9bb9af99c80549fcb886b856cdf1806b.setContent(html_d1b9c3e0e5ff40cda9fbf38aa4e40ad4);
+        
+
+        circle_marker_52f18fd053a64aad9965e7b5511a68a4.bindPopup(popup_9bb9af99c80549fcb886b856cdf1806b)
+        ;
+
+        
+    
+    
+            var circle_marker_f5e54fcb33054cdabd8146b551e5423a = L.circleMarker(
+                [47.5298239, -122.2856251],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_7e02c892b1af476282855c3bd3219a3d);
+        
+    
+        var popup_dd9a1f1279c840a3b923cd55f796ca1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe41d3be847c4df6abbd86dffea41ee8 = $(`<div id="html_fe41d3be847c4df6abbd86dffea41ee8" style="width: 100.0%; height: 100.0%;">Wing Luke Elementary</div>`)[0];
+            popup_dd9a1f1279c840a3b923cd55f796ca1a.setContent(html_fe41d3be847c4df6abbd86dffea41ee8);
+        
+
+        circle_marker_f5e54fcb33054cdabd8146b551e5423a.bindPopup(popup_dd9a1f1279c840a3b923cd55f796ca1a)
+        ;
+
+        
+    
+</script>

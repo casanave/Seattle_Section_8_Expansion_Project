@@ -158,103 +158,104 @@ Additionally, I'll be dropping zipcode since I've made those into dummies.
 ## Modeling: (using stats models OLS) 
 1) Baseline Model: Grade, Bathrooms, Lat and Price as the target. R-Squared Adj. 53%, Kurtosis at 11.96
 2) Second Model: Grade, Bathrooms, Lat and Log of Price as the target. R-Squared Adj. at 63%, Kurtosis at 3.71
-3) Third Model: View, Bedrooms and Floors And Previous Features, with Log of Price as target. R-Squared Adj. at 65%
-4) Fourth Model: Closest School Distance, Square Foot Basement and Waterfront And Previous Features, with Log of Price as target. R-Squared Adj. at 67%
-5) Fifth Model: Year Renovated, Closest Hospital Distance and Square Foot Lot of Closest 15 Neighbors And Previous Features, with Log of Price as target. R-Squared Adj. at 68%
-6) Sixth Model: Condition, Longitude and Age of Home And Previous Features, with Log of Price as target. R-squared Adj. at 72%
+3) Third Model: Bedrooms, Floors, Closest School Distance And Previous Features, with Log of Price as target. R-Squared Adj. at 65%
+4) Fourth Model: Square Foot Basement, Closest Hospital Distance and Year Renovated And Previous Features, with Log of Price as target. R-Squared Adj. at 66%
+5) Fifth Model: Square Foot Lot of Closest 15 Neighbors, Longitude and Age of Home And Previous Features, with Log of Price as target. R-Squared Adj. at 70%
+6) Sixth Model: Condition, Waterfront and View¶ And Previous Features, with Log of Price as target. R-squared Adj. at 72%
 7) Seventh Model: Adding Zipcodes And Previous Features, with Log of Price as target. R-squared Adj. at 83%, Latitude and Closest Hospital Distance had p values of over 0.05% and thus were removed. 
 8) Eighth Model: Removing Hospital and Latitude Data, with Log of Price as target. R-squared Adj. at 83%. 
 
 FINDINGS REPORT: 
- -  As grade increases by one unit, the price changes by 19.60 percent.
- -  As bathrooms increases by one unit, the price changes by 11.89 percent.
- -  If view was a feature of a property, the price would rise by 24.85 percent.
- -  As bedrooms increases by one unit, the price changes by 4.66 percent.
- -  As floors increases by one unit, the price changes by 0.86 percent.
- -  As closest_school_distance increases by one unit, the price changes by -1.57 percent.
- -  As sqft_basement increases by one unit, the price changes by 2.32 percent.
- -  If waterfront was a feature of a property, the price would rise by 47.73 percent.
- -  As yr_renovated increases by one unit, the price changes by 0.00 percent.
- -  As sqft_lot15 increases by one unit, the price changes by 0.00 percent.
- -  As condition increases by one unit, the price changes by 4.90 percent.
- -  As long increases by one unit, the price changes by 38.18 percent.
- -  As age_of_home increases by one unit, the price changes by 0.20 percent.
- -  If a property was in zipcode_98001 zipcode instead of 98039, the price would change by -109.81  percent.
- -  If a property was in zipcode_98002 zipcode instead of 98039, the price would change by -115.93  percent.
- -  If a property was in zipcode_98003 zipcode instead of 98039, the price would change by -109.85  percent.
- -  If a property was in zipcode_98004 zipcode instead of 98039, the price would change by -16.62  percent.
- -  If a property was in zipcode_98005 zipcode instead of 98039, the price would change by -55.04  percent.
- -  If a property was in zipcode_98006 zipcode instead of 98039, the price would change by -62.67  percent.
- -  If a property was in zipcode_98007 zipcode instead of 98039, the price would change by -65.15  percent.
- -  If a property was in zipcode_98008 zipcode instead of 98039, the price would change by -62.86  percent.
- -  If a property was in zipcode_98010 zipcode instead of 98039, the price would change by -80.95  percent.
- -  If a property was in zipcode_98011 zipcode instead of 98039, the price would change by -79.85  percent.
- -  If a property was in zipcode_98014 zipcode instead of 98039, the price would change by -80.53  percent.
- -  If a property was in zipcode_98019 zipcode instead of 98039, the price would change by -82.64  percent.
- -  If a property was in zipcode_98023 zipcode instead of 98039, the price would change by -110.25  percent.
- -  If a property was in zipcode_98024 zipcode instead of 98039, the price would change by -79.19  percent.
- -  If a property was in zipcode_98027 zipcode instead of 98039, the price would change by -72.32  percent.
- -  If a property was in zipcode_98028 zipcode instead of 98039, the price would change by -84.88  percent.
- -  If a property was in zipcode_98029 zipcode instead of 98039, the price would change by -65.88  percent.
- -  If a property was in zipcode_98030 zipcode instead of 98039, the price would change by -113.51  percent.
- -  If a property was in zipcode_98031 zipcode instead of 98039, the price would change by -116.75  percent.
- -  If a property was in zipcode_98032 zipcode instead of 98039, the price would change by -123.84  percent.
- -  If a property was in zipcode_98033 zipcode instead of 98039, the price would change by -50.54  percent.
- -  If a property was in zipcode_98034 zipcode instead of 98039, the price would change by -76.40  percent.
- -  If a property was in zipcode_98038 zipcode instead of 98039, the price would change by -98.65  percent.
- -  If a property was in zipcode_98040 zipcode instead of 98039, the price would change by -41.34  percent.
- -  If a property was in zipcode_98042 zipcode instead of 98039, the price would change by -112.00  percent.
- -  If a property was in zipcode_98052 zipcode instead of 98039, the price would change by -62.66  percent.
- -  If a property was in zipcode_98053 zipcode instead of 98039, the price would change by -54.66  percent.
- -  If a property was in zipcode_98055 zipcode instead of 98039, the price would change by -115.96  percent.
- -  If a property was in zipcode_98056 zipcode instead of 98039, the price would change by -94.70  percent.
- -  If a property was in zipcode_98058 zipcode instead of 98039, the price would change by -110.54  percent.
- -  If a property was in zipcode_98059 zipcode instead of 98039, the price would change by -89.16  percent.
- -  If a property was in zipcode_98065 zipcode instead of 98039, the price would change by -66.70  percent.
- -  If a property was in zipcode_98070 zipcode instead of 98039, the price would change by -84.82  percent.
- -  If a property was in zipcode_98072 zipcode instead of 98039, the price would change by -74.17  percent.
- -  If a property was in zipcode_98074 zipcode instead of 98039, the price would change by -66.62  percent.
- -  If a property was in zipcode_98075 zipcode instead of 98039, the price would change by -61.17  percent.
- -  If a property was in zipcode_98077 zipcode instead of 98039, the price would change by -74.59  percent.
- -  If a property was in zipcode_98092 zipcode instead of 98039, the price would change by -111.15  percent.
- -  If a property was in zipcode_98102 zipcode instead of 98039, the price would change by -50.00  percent.
- -  If a property was in zipcode_98103 zipcode instead of 98039, the price would change by -59.42  percent.
- -  If a property was in zipcode_98105 zipcode instead of 98039, the price would change by -47.28  percent.
- -  If a property was in zipcode_98106 zipcode instead of 98039, the price would change by -103.03  percent.
- -  If a property was in zipcode_98107 zipcode instead of 98039, the price would change by -58.59  percent.
- -  If a property was in zipcode_98108 zipcode instead of 98039, the price would change by -100.74  percent.
- -  If a property was in zipcode_98109 zipcode instead of 98039, the price would change by -41.79  percent.
- -  If a property was in zipcode_98112 zipcode instead of 98039, the price would change by -37.16  percent.
- -  If a property was in zipcode_98115 zipcode instead of 98039, the price would change by -56.33  percent.
- -  If a property was in zipcode_98116 zipcode instead of 98039, the price would change by -60.24  percent.
- -  If a property was in zipcode_98117 zipcode instead of 98039, the price would change by -56.66  percent.
- -  If a property was in zipcode_98118 zipcode instead of 98039, the price would change by -91.34  percent.
- -  If a property was in zipcode_98119 zipcode instead of 98039, the price would change by -44.55  percent.
- -  If a property was in zipcode_98122 zipcode instead of 98039, the price would change by -64.43  percent.
- -  If a property was in zipcode_98125 zipcode instead of 98039, the price would change by -79.00  percent.
- -  If a property was in zipcode_98126 zipcode instead of 98039, the price would change by -79.91  percent.
- -  If a property was in zipcode_98133 zipcode instead of 98039, the price would change by -87.53  percent.
- -  If a property was in zipcode_98136 zipcode instead of 98039, the price would change by -66.18  percent.
- -  If a property was in zipcode_98144 zipcode instead of 98039, the price would change by -73.10  percent.
- -  If a property was in zipcode_98146 zipcode instead of 98039, the price would change by -100.32  percent.
- -  If a property was in zipcode_98148 zipcode instead of 98039, the price would change by -109.11  percent.
- -  If a property was in zipcode_98155 zipcode instead of 98039, the price would change by -87.67  percent.
- -  If a property was in zipcode_98166 zipcode instead of 98039, the price would change by -91.74  percent.
- -  If a property was in zipcode_98168 zipcode instead of 98039, the price would change by -119.97  percent.
- -  If a property was in zipcode_98177 zipcode instead of 98039, the price would change by -66.19  percent.
- -  If a property was in zipcode_98178 zipcode instead of 98039, the price would change by -118.24  percent.
- -  If a property was in zipcode_98188 zipcode instead of 98039, the price would change by -118.39  percent.
- -  If a property was in zipcode_98198 zipcode instead of 98039, the price would change by -112.50  percent.
- -  If a property was in zipcode_98199 zipcode instead of 98039, the price would change by -49.08  percent.
+
+- As grade increases by one unit, the price changes by 19.58 percent.
+- As bathrooms increases by one unit, the price changes by 11.89 percent.
+- As bedrooms increases by one unit, the price changes by 4.72 percent.
+- As floors increases by one unit, the price changes by 0.85 percent.
+- As closest_school_distance increases by one unit, the price changes by -1.56 percent.
+- As sqft_basement increases by one unit, the price changes by 2.31 percent.
+- As yr_renovated increases by one unit, the price changes by 0.00 percent.
+- As sqft_lot15 increases by one unit, the price changes by 0.00 percent.
+- As long increases by one unit, the price changes by 38.47 percent.
+- As age_of_home increases by one unit, the price changes by 0.20 percent.
+- As condition increases by one unit, the price changes by 4.89 percent.
+- If waterfront was a feature of a property, the price would rise by 47.77 percent.
+- If view was a feature of a property, the price would rise by 24.85 percent.
+- If a property was in zipcode_98001 zipcode instead of 98039, the price would change by -109.89  percent.
+- If a property was in zipcode_98002 zipcode instead of 98039, the price would change by -116.03  percent.
+- If a property was in zipcode_98003 zipcode instead of 98039, the price would change by -109.91  percent.
+- If a property was in zipcode_98004 zipcode instead of 98039, the price would change by -16.44  percent.
+- If a property was in zipcode_98005 zipcode instead of 98039, the price would change by -55.09  percent.
+- If a property was in zipcode_98006 zipcode instead of 98039, the price would change by -62.70  percent.
+- If a property was in zipcode_98007 zipcode instead of 98039, the price would change by -65.22  percent.
+- If a property was in zipcode_98008 zipcode instead of 98039, the price would change by -62.95  percent.
+- If a property was in zipcode_98010 zipcode instead of 98039, the price would change by -81.11  percent.
+- If a property was in zipcode_98011 zipcode instead of 98039, the price would change by -79.88  percent.
+- If a property was in zipcode_98014 zipcode instead of 98039, the price would change by -80.71  percent.
+- If a property was in zipcode_98019 zipcode instead of 98039, the price would change by -82.81  percent.
+- If a property was in zipcode_98023 zipcode instead of 98039, the price would change by -110.31  percent.
+- If a property was in zipcode_98024 zipcode instead of 98039, the price would change by -79.40  percent.
+- If a property was in zipcode_98027 zipcode instead of 98039, the price would change by -72.43  percent.
+- If a property was in zipcode_98028 zipcode instead of 98039, the price would change by -84.88  percent.
+- If a property was in zipcode_98029 zipcode instead of 98039, the price would change by -66.02  percent.
+- If a property was in zipcode_98030 zipcode instead of 98039, the price would change by -113.59  percent.
+- If a property was in zipcode_98031 zipcode instead of 98039, the price would change by -116.81  percent.
+- If a property was in zipcode_98032 zipcode instead of 98039, the price would change by -123.89  percent.
+- If a property was in zipcode_98033 zipcode instead of 98039, the price would change by -50.56  percent.
+- If a property was in zipcode_98034 zipcode instead of 98039, the price would change by -76.42  percent.
+- If a property was in zipcode_98038 zipcode instead of 98039, the price would change by -98.80  percent.
+- If a property was in zipcode_98040 zipcode instead of 98039, the price would change by -41.35  percent.
+- If a property was in zipcode_98042 zipcode instead of 98039, the price would change by -112.11  percent.
+- If a property was in zipcode_98052 zipcode instead of 98039, the price would change by -62.73  percent.
+- If a property was in zipcode_98053 zipcode instead of 98039, the price would change by -54.77  percent.
+- If a property was in zipcode_98055 zipcode instead of 98039, the price would change by -115.98  percent.
+- If a property was in zipcode_98056 zipcode instead of 98039, the price would change by -94.73  percent.
+- If a property was in zipcode_98058 zipcode instead of 98039, the price would change by -110.61  percent.
+- If a property was in zipcode_98059 zipcode instead of 98039, the price would change by -89.23  percent.
+- If a property was in zipcode_98065 zipcode instead of 98039, the price would change by -66.94  percent.
+- If a property was in zipcode_98070 zipcode instead of 98039, the price would change by -84.75  percent.
+- If a property was in zipcode_98072 zipcode instead of 98039, the price would change by -74.23  percent.
+- If a property was in zipcode_98074 zipcode instead of 98039, the price would change by -66.73  percent.
+- If a property was in zipcode_98075 zipcode instead of 98039, the price would change by -61.31  percent.
+- If a property was in zipcode_98077 zipcode instead of 98039, the price would change by -74.68  percent.
+- If a property was in zipcode_98092 zipcode instead of 98039, the price would change by -111.26  percent.
+- If a property was in zipcode_98102 zipcode instead of 98039, the price would change by -49.92  percent.
+- If a property was in zipcode_98103 zipcode instead of 98039, the price would change by -59.33  percent.
+- If a property was in zipcode_98105 zipcode instead of 98039, the price would change by -47.03  percent.
+- If a property was in zipcode_98106 zipcode instead of 98039, the price would change by -102.92  percent.
+- If a property was in zipcode_98107 zipcode instead of 98039, the price would change by -58.49  percent.
+- If a property was in zipcode_98108 zipcode instead of 98039, the price would change by -100.69  percent.
+- If a property was in zipcode_98109 zipcode instead of 98039, the price would change by -41.70  percent.
+- If a property was in zipcode_98112 zipcode instead of 98039, the price would change by -37.10  percent.
+- If a property was in zipcode_98115 zipcode instead of 98039, the price would change by -56.27  percent.
+- If a property was in zipcode_98116 zipcode instead of 98039, the price would change by -60.15  percent.
+- If a property was in zipcode_98117 zipcode instead of 98039, the price would change by -56.57  percent.
+- If a property was in zipcode_98118 zipcode instead of 98039, the price would change by -91.30  percent.
+- If a property was in zipcode_98119 zipcode instead of 98039, the price would change by -44.46  percent.
+- If a property was in zipcode_98122 zipcode instead of 98039, the price would change by -64.37  percent.
+- If a property was in zipcode_98125 zipcode instead of 98039, the price would change by -78.95  percent.
+- If a property was in zipcode_98126 zipcode instead of 98039, the price would change by -79.82  percent.
+- If a property was in zipcode_98133 zipcode instead of 98039, the price would change by -87.47  percent.
+- If a property was in zipcode_98136 zipcode instead of 98039, the price would change by -66.08  percent.
+- If a property was in zipcode_98144 zipcode instead of 98039, the price would change by -73.04  percent.
+- If a property was in zipcode_98146 zipcode instead of 98039, the price would change by -100.27  percent.
+- If a property was in zipcode_98148 zipcode instead of 98039, the price would change by -109.10  percent.
+- If a property was in zipcode_98155 zipcode instead of 98039, the price would change by -87.64  percent.
+- If a property was in zipcode_98166 zipcode instead of 98039, the price would change by -91.71  percent.
+- If a property was in zipcode_98168 zipcode instead of 98039, the price would change by -119.94  percent.
+- If a property was in zipcode_98177 zipcode instead of 98039, the price would change by -66.14  percent.
+- If a property was in zipcode_98178 zipcode instead of 98039, the price would change by -118.22  percent.
+- If a property was in zipcode_98188 zipcode instead of 98039, the price would change by -118.39  percent.
+- If a property was in zipcode_98198 zipcode instead of 98039, the price would change by -112.51  percent.
+- If a property was in zipcode_98199 zipcode instead of 98039, the price would change by -48.98  percent.
  
  ## Conclusion: 
- 1) As we can read in the printed report above, improving the grade and the condition (as is our aim with renovations) would make the value of the properties increase by roughly 1/4th. Therefore I'm recommending that the city of Seattle focus on improving both grade and condition of properties during the renovation.
+ 1) As we can read in the printed report above, improving the grade and the condition (as is our aim with renovations) would make the value of the properties increase by roughly 1/4th. *Therefore* I'm recommending that the city of Seattle focus on improving both grade and condition of properties during the renovation. In the report, year_renovated by itself had little affect on the price of the home. The conclusion here is that it's not enough to simply renovate a home, but we must improve it's condition and/or grade with that renovation. 
 
-Choosing which properties to renovate: the properties where the least expensive changes will increase the grade, and/or condition of the property are a safe bet.
+Choosing which properties to renovate: the properties where the least expensive changes will increase the grade, and/or condition of the property are a safe bet for a high return on investment. 
 
-2) There are certain zipcodes where the class disparity is quite large. I recommend that the city of Seattle spend 1/3 to 3/5ths of this current projects budget just focusing on renovating properties in these zipcodes with the lowest grade/conditions, and making those into public housing. These zipcodes are as follows: 98168, 98188, 98178, 98198, 98148, 98146, 98108, 98092, 98058, 98055, 98042, 98032, 98031, 98030, 98023, 98003, 98002, 98001. The data shows that properties in these zipcodes would increase in value by over 100% if they were in the 98039 zipcode instead.
+2) There are certain zipcodes where the class disparity is quite large. I recommend that the city of Seattle spend 1/3 of this current projects budget just focusing on renovating properties in these zipcodes with the lowest grade/conditions, and making those into public housing. These zipcodes are as follows: 98168, 98188, 98178, 98198, 98148, 98146, 98108, 98092, 98058, 98055, 98042, 98032, 98031, 98030, 98023, 98003, 98002, 98001. The data shows that properties in these zipcodes would increase in value by over 100% if they were in the 98039 zipcode instead. 
 
-3) While one and a half percent may not seem like a lot--there is now statistical evidence that putting new schools specifically where the closest schools are far away will improve the property values of all the homes closest to that school. As schools increase distance away from homes, the property value of the home drops by just over 1.5%. While building schools is outside the range of the scope of this public housing project, it is a finding to take back to the city counsel and state senate.
+3) While one and a half percent may not seem like a lot--there is now statistical evidence that putting new schools specifically where the closest schools are far away will improve the property values of all the homes closest to that school. As schools increase distance away from homes, the property value of the home drops by just over 1.5%. While building schools is outside the range of the scope of this public housing project, it is a finding to take back to the city counsel and state senate. Furthermore I'd recommend that when selecting properties for this project, flagging properties that are within 3 miles of a public school for selection across zipcodes. People in public housing deserve functional infrastructure. 
 
 <img width="753" alt="schools_map" src="https://user-images.githubusercontent.com/8728172/162645079-4c17e286-9fe4-432d-9455-e6865df41fe0.png">
 
