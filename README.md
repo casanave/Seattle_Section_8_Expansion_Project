@@ -96,16 +96,15 @@ Renovating properties increases their value, that's to be expected. However, we 
 1) Made new column for age of home
 2) Made new column which uses either the year the property was renovated or built
 
+![seattle_school](https://user-images.githubusercontent.com/8728172/163217670-98c99754-e187-4ae5-88a9-bef78c47ff41.jpg)
+
+
 ### Infrastructure Data:
 3) Made column for distance from downtown (source: google maps) ** also removed properites more than 25 miles away from downtown
 4) Made column for distance from closest police station (source: http://www.seattle.gov/police/about-us/police-locations)
-
-![precinct](https://user-images.githubusercontent.com/8728172/163206555-8c795961-06e4-4496-b087-c07d913966e6.jpeg)
-
-5) Made column for distance from closest hospitals (source: https://data-seattlecitygis.opendata.arcgis.com/datasets/hospitals/explore) ![hospital](https://user-images.githubusercontent.com/8728172/163206591-e0fb3bbc-ac49-4d70-821c-d475bff54ebe.jpeg)
-
+5) Made column for distance from closest hospitals (source: https://data-seattlecitygis.opendata.arcgis.com/datasets/hospitals/explore) 
 6) Made column for distance from closest public schools *with scraped data using Selenium* (source: https://www.seattleschools.org/schools/) 
- ![seattle_school](https://user-images.githubusercontent.com/8728172/163206623-7589af49-b8e3-431c-a403-1faf702398a9.jpg)
+ 
 
 
 ## Zipcode Data
