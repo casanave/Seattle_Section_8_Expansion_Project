@@ -1,39 +1,5 @@
 # Seattle_Section_8_Project
 
-## Repo Navigation: 
-|-Data
-
-|-----------Fire_Stations.csv
-
-|-----------Hospitals.csv
-
-|-----------Housing_Project_Full
-
-|-----------Housing_Project_No_Dummies
-
-|-----------Housing_Project_With_Zipcodes
-
-|-----------column_names.md
-
-|-----------kc_house_data.csv
-
-|-Visuals
-
-|-----------Correlation.png
-
-|-----------Renovation_Comparission.png
-
-|-----------Schools_Map (html)
-
-|-----------Schools_Map.png
-
-|-.gitignore
-
-|-README.md
-
-|-Seattle_Section_8_Project.ipynb
-
-
 ## Introduction
 Premise:
 
@@ -265,5 +231,38 @@ While we can visually inspect the map above and look for places where a new scho
 
 FURTHER WORK:
 With more time and resources, I'd like to exactly calculate the areas that are the most isolated from public schools, but the above map shows a rough idea, by looking at the areas of the map not shaded blue by a circle. In the future, I'd like to exactly calculate the distance of these circles in human measurements, not in pixels.
+
+## Repo Navigation: 
+|-Data
+
+|-----------Fire_Stations.csv
+
+|-----------Hospitals.csv
+
+|-----------Housing_Project_Full
+
+|-----------Housing_Project_No_Dummies
+
+|-----------Housing_Project_With_Zipcodes
+
+|-----------column_names.md
+
+|-----------kc_house_data.csv
+
+|-Visuals
+
+|-----------Correlation.png
+
+|-----------Renovation_Comparission.png
+
+|-----------Schools_Map (html)
+
+|-----------Schools_Map.png
+
+|-.gitignore
+
+|-README.md
+
+|-Seattle_Section_8_Project.ipynb
 
  
