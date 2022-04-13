@@ -259,6 +259,34 @@ With more time and resources, I'd like to exactly calculate the areas that are t
 
 |-----------Schools_Map.png
 
+|-Photos
+
+|-----------amazon-banner.jpeg
+
+|-----------ballard_house.jpeg
+
+|-----------precinct.jpeg
+
+|-----------home_98039.jpeg
+
+|-----------university_house.jpeg
+
+|-----------hospital.jpeg
+
+|-----------seattle_school.jpg
+
+|-----------seattle_tents.png
+
+|-----------homelessness_plot.png
+
+|-PDFs
+
+|-----------Github.pdf
+
+|-----------Jupyter_Notebook.pdf
+
+|-----------Seattle_Section_8_Expansion_Presentation.pdf
+
 |-.gitignore
 
 |-README.md
