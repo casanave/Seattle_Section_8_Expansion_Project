@@ -1,9 +1,12 @@
 # Seattle_Section_8_Project
+![university_house](https://user-images.githubusercontent.com/8728172/163206172-ee33b5df-8db0-4435-a05e-b90a003bb26a.jpeg)
 
 ## Introduction
 Premise:
 
 Public/low income housing has become a somewhat controversial issue in Seattle. While many can agree there are two Seattles, or about the existence of a"homelessness issue," ideas about how to solve for this problem range from tax breaks for real estate investors, increased police budgets, to "defensive design" (IE spikes on buildings to stop people from sleeping there) to increasing unemployment budgets and back-to-work programs. In the city's political history, candidates have called the issue of class disparity and homelessness either larger or smaller, depending on their goals and intended audience. In 2015, when this dataset is from, 45 homeless folks died as a direct result of their homelessness, and the mayor declared a state of emergency. (CITATION: https://www.capitolhillseattle.com/2015/11/45-dead-in-2015-mayor-declares-seattle-homelessness-in-a-state-of-emergency/)
+
+![homelessness_plot](https://user-images.githubusercontent.com/8728172/163206206-785e0568-de9f-4b4b-a574-e7db8d9d63ef.png)
 
 Hypothetical Premise: The City of Seattle city government, in partnership with the State of Washington's state senate has a new pilot program called Section 8 Expansion. There is a 100 million dollar budget in this pilot program to buy real estate at market value to convert into section 8 housing. This project has 3 main goals: 1) to increase the availability of low-income housing 2) to increase property values throughout the city 3) to decrease class disparity.
 
@@ -96,8 +99,14 @@ Renovating properties increases their value, that's to be expected. However, we 
 ### Infrastructure Data:
 3) Made column for distance from downtown (source: google maps) ** also removed properites more than 25 miles away from downtown
 4) Made column for distance from closest police station (source: http://www.seattle.gov/police/about-us/police-locations)
-5) Made column for distance from closest hospitals (source: https://data-seattlecitygis.opendata.arcgis.com/datasets/hospitals/explore) 
+
+![precinct](https://user-images.githubusercontent.com/8728172/163206555-8c795961-06e4-4496-b087-c07d913966e6.jpeg)
+
+5) Made column for distance from closest hospitals (source: https://data-seattlecitygis.opendata.arcgis.com/datasets/hospitals/explore) ![hospital](https://user-images.githubusercontent.com/8728172/163206591-e0fb3bbc-ac49-4d70-821c-d475bff54ebe.jpeg)
+
 6) Made column for distance from closest public schools *with scraped data using Selenium* (source: https://www.seattleschools.org/schools/) 
+ ![seattle_school](https://user-images.githubusercontent.com/8728172/163206623-7589af49-b8e3-431c-a403-1faf702398a9.jpg)
+
 
 ## Zipcode Data
 Using this kind of model, I'll need to pick one zipcode as the default zipcode so we can compare the price of a property going up or down depending on what zipcode it's in.
